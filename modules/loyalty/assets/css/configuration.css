@@ -1,0 +1,113 @@
+.withd_1k{
+  width: 1000px;
+}
+.bot_div{
+  display: contents;
+  line-height: 84px;
+  white-space: nowrap;
+}
+.i_tooltip{
+  font-size: 1.25rem; 
+  color: #676a80;
+}
+.pad_0{
+	padding-left: 0px;
+	padding-right: 0px;
+}
+
+.line-height-content{
+	display: contents;line-height: 84px;white-space: nowrap;
+}
+.border-radius-4{
+	border-radius: 4px;
+}
+.picture-container{
+	height: 220px;
+    position: relative;
+    cursor: pointer;
+    text-align: center;
+}
+.picture{
+    width: 350px;
+    height: 220px;
+    background-color: #999999;
+    border: 2px solid #CCCCCC;
+    color: #FFFFFF;
+    border-radius: 3%;
+    margin: 0px auto;
+    overflow: hidden;
+    transition: all 0.2s;
+    -webkit-transition: all 0.2s;
+}
+.picture:hover{
+    border-color: #2ca8ff;
+}
+.content.ct-wizard-green .picture:hover{
+    border-color: #05ae0e;
+}
+.content.ct-wizard-blue .picture:hover{
+    border-color: #3472f7;
+}
+.content.ct-wizard-orange .picture:hover{
+    border-color: #ff9500;
+}
+.content.ct-wizard-red .picture:hover{
+    border-color: #ff3b30;
+}
+.picture input[type="file"] {
+    cursor: pointer;
+    display: block;
+    height: 100%;
+    left: 0;
+    opacity: 0 !important;
+    position: absolute;
+    top: 0;
+    width: 100%;
+}
+
+.picture-src{
+    width: 100%;
+    
+}
+
+.container {
+  position: relative;
+  text-align: center;
+
+}
+
+/* Bottom left text */
+.bottom-left {
+  position: absolute;
+  bottom: 16px;
+  left: 16px;
+}
+
+/* Top left text */
+.top-left {
+  position: absolute;
+  top: 16px;
+  left: 16px;
+}
+
+/* Top right text */
+.top-right {
+  position: absolute;
+  top: 16px;
+  right: 150px;
+}
+
+/* Bottom right text */
+.bottom-right {
+  position: absolute;
+  bottom: 16px;
+  right: 150px;
+}
+
+/* Centered text */
+.centered {
+  position: absolute;
+  top: 50%;
+  left: 35%;
+  transform: translate(-50%, -50%);
+}

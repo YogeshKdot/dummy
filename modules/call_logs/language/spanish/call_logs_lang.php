@@ -1,0 +1,75 @@
+<?php
+
+# Version 2.3.0
+
+$lang['call_logs']                                             = 'Registros de llamadas';
+$lang['call_log_info']                                         = 'Información de registro de llamadas';
+$lang['call_log']                                              = 'Registro de llamadas';
+$lang['call_logs_tracking']                                    = 'Seguimiento de registros de llamadas';
+$lang['new_call_log']                                          = 'Nuevo registro de llamadas';
+$lang['call_log_lowercase']                                    = 'registro de llamadas';
+$lang['call_log_type']                                         = 'Tipo';
+$lang['new_call_logs_category']                                = 'Nuevo tipo';
+$lang['edit_call_logs_category']                               = 'Tipo de edición';
+$lang['call_logs_add_edit_name']                               = 'Escribe un nombre';
+$lang['call_logs_add_edit_description']                        = 'Descripción';
+$lang['call_log_category']                                     = 'Tipo de registro de llamadas';
+$lang['call_log_direction_inbound']                            = 'Entrante';
+$lang['call_log_direction_outbound']                           = 'Saliente';
+$lang['call_log_direction']                                    = 'Tipo de llamada';
+$lang['call_purpose']                                          = 'Propósito de llamadas';
+$lang['call_log_add_edit_call_summary']                        = 'Resumen de llamadas';
+$lang['cl_follow_up_requried']                                 = 'Se requiere un seguimiento';
+$lang['cl_follow_up_yes']                                      = 'Sí';
+$lang['cl_follow_up_no']                                       = 'no';
+$lang['cl_call_start_time']                                    = 'Hora de inicio de la llamada';
+$lang['cl_call_end_time']                                      = 'Llamar al final de la hora';
+$lang['cl_call_duration']                                      = 'Duración de la llamada';
+$lang['cl_call_owner']                                         = 'Propietario de la llamada';
+$lang['cl_caller']                                             = 'Llamadora';
+$lang['cl_purpose_of_call']                                    = 'Propósito de la llamada';
+$lang['cl_contact']                                            = 'contacto';
+$lang['cl_start_time']                                         = 'horaDeInicio';
+$lang['cl_end_time']                                           = 'horaDeFinalización';
+$lang['cl_duration']                                           = 'duración';
+$lang['cl_call_follow_up']                                     = 'hacerUnSeguimiento';
+$lang['create_new_call_log']                                   = 'crearRegistroDeLlamadas';
+$lang['cl_add_edit_customer']                                  = 'cliente';
+$lang['cl_follow_up_schedule']                                 = 'horarioDeSeguimiento';
+$lang['cl_call_log_completed']                                 = 'terminada';
+$lang['cl_call_log_important']                                 = 'importante';
+$lang['cl_is_important_1']                                     = '🔥';
+$lang['cl_is_important_0']                                     = 'No';
+$lang['cl_is_completed_1']                                     = '👏';
+$lang['cl_is_completed_0']                                     = 'No';
+$lang['cl_has_followup_1']                                     = '📲';
+$lang['cl_has_followup_0']                                     = 'No';
+$lang['cl_is_important']                                       = 'importante';
+$lang['cl_is_completed']                                       = 'terminada';
+$lang['cl_call_with_staff']                                    = 'llamarAlMiembroDelPersonal';
+$lang['cl_customer_type']                                      = 'tipoDeCliente';
+$lang['cl_add_edit_lead']                                      = 'dirigir';
+$lang['cl_related']                                            = 'Relacionado';
+$lang['cl_lead']                                               = 'dirigir';
+$lang['cl_customer']                                           = 'cliente';
+$lang['cl_for_proposal']                                       = 'propuesta';
+$lang['cl_for_estimate']                                       = 'Estimar';
+$lang['cl_type']                                               = 'Tipo';
+$lang['cl_general_call']                                       = 'Llamada general';
+$lang['cl_cold-calling']                                       = 'Llamadas en frío';
+$lang['cl_report_inbound_calls']                               = 'Entrante';
+$lang['cl_report_outbound_calls']                              = 'Saliente';
+$lang['cl_gantt_overview']                                     = 'Descripción general de los registros de llamadas';
+$lang['cl_switch_to_list_view']                                = 'Cambiar a la lista';
+$lang['cl_switch_to_grid_view']                                = 'Cambiar a la cuadrícula';
+$lang['cl_search']                                             = 'Registro de llamadas de búsqueda';
+$lang['cl_assigned_to_me']                                     = 'Mis registros de llamadas';
+$lang['cl_filter_staff']                                       = 'Personal';
+$lang['cl_created_at']                                         = 'Creado en %s';
+$lang['cl_filter_staff']                                       = 'Personal';
+$lang['cl_back']                                               = 'Regresa';
+$lang['cl_not_found']                                          = 'Llame Registro no encontrado.';
+$lang['preview_call_log']                                      = 'Registro de llamadas de vista previa';
+
+
+$lang['cl_follow_up_notification']  = 'Tienes una llamada de seguimiento con %s en %s';

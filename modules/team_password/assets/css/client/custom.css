@@ -1,0 +1,20 @@
+
+.generate-padding{
+	right: 0px;
+	padding: 27px;
+}
+input[type=range]{
+  width: 100%;
+}
+.ptop-10{
+	padding-top: 10px;
+}
+.generate-padding .btn-password{
+	margin-top: 24px;
+}
+.generate-padding .btn-password{
+	margin-top: 24px;
+}
+.generate-padding .range-field{
+	padding-top: 10px;
+}

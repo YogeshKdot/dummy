@@ -1,0 +1,26 @@
+.count{
+    font-size: 18px;
+    font-weight: 450;
+}
+/* Custom design */
+
+.existing_image {
+    position: relative;
+}
+
+.existing_image .close {
+    position: absolute;
+}
+
+.rotate {
+  animation: rotation 2s infinite linear;
+}
+
+@keyframes rotation {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(359deg);
+  }
+}

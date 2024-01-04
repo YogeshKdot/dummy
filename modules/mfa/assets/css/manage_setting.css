@@ -1,0 +1,172 @@
+.border-left-ss{
+	border-left: 1px solid #f0f0f0;
+}
+.pleft0{
+	padding-left: 0px;
+}
+.pright0{
+	padding-right: 0px;
+}
+.mbtn_bot{
+  margin: 0 0 0 -22px;
+}
+
+.custom_panel{
+  background-color: #bce8f1;
+}
+
+.channel.google_ath{
+  padding: 5px;
+  background-image: url('../images/01.jpg');
+  background-repeat: no-repeat;
+  background-size: contain;
+  background-position: center;
+
+  opacity: 0.9;
+      -webkit-user-select: none;  /* Chrome all / Safari all */
+    -moz-user-select: none;     /* Firefox all */
+    -ms-user-select: none;      /* IE 10+ */
+    user-select: none;          /* Likely future */  
+
+}
+.channel.whatsapp{
+  padding: 5px;
+  background-image: url('../images/02.png');
+  background-repeat: no-repeat;
+  background-size: contain;
+  background-position: center;
+
+  opacity: 0.9;
+  -webkit-user-select: none;  /* Chrome all / Safari all */
+  -moz-user-select: none;     /* Firefox all */
+  -ms-user-select: none;      /* IE 10+ */
+  user-select: none;          /* Likely future */  
+
+}
+.channel.sms{
+  padding: 5px;
+  background-image: url('../images/03.png');
+
+  background-repeat: no-repeat;
+  background-size: contain;
+  background-position: center;
+  opacity: 0.9;
+      -webkit-user-select: none;  /* Chrome all / Safari all */
+    -moz-user-select: none;     /* Firefox all */
+    -ms-user-select: none;      /* IE 10+ */
+    user-select: none;          /* Likely future */  
+}
+.channel.shadow.active.red a span,.channel.shadow.active.blue a span {
+    font-size: 27px;
+    font-weight: bold;
+}
+.tab_cart .exit_tab{
+  font-size: 10px;
+  color: #c0c0c0;
+}
+.channel .bottoms{
+    position: absolute;
+    bottom: 0;
+    right: 0;
+    left: 0;
+    text-align: right;
+    padding-bottom: 6px;
+    padding-right: 5px;
+    -webkit-user-select: none;  /* Chrome all / Safari all */
+    -moz-user-select: none;     /* Firefox all */
+    -ms-user-select: none;      /* IE 10+ */
+    user-select: none;          /* Likely future */  
+}
+.channel .bottoms a.link{
+    display: inline-block;
+    font-weight: bold;
+    color: #009;
+    text-decoration: underline;
+    -webkit-user-select: none;  /* Chrome all / Safari all */
+    -moz-user-select: none;     /* Firefox all */
+    -ms-user-select: none;      /* IE 10+ */
+    user-select: none;          /* Likely future */  
+}
+
+.channel.shadow{
+  box-shadow: -2px -1px 5px #c0c0c0;
+  position: relative;
+  height: 300px;
+}
+.channel.shadow .wrap-link{
+  position: absolute;
+  top:0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  width: 100%;
+}
+.channel.shadow a span{
+  position: absolute;
+  margin:0;
+  top:50%;
+  left: 50%;
+  transform: translate(4%,243%);
+  font-size: 25px;
+  color:#c0c0c0;
+}
+.channel.shadow .switch{
+  position: absolute;
+  bottom: 0px;
+  right: 5px;
+}
+
+.channel.shadow.active.red{
+  background-color: #fff7f8;
+}
+.channel.shadow.active.red a span{
+  color: #e47424;
+}
+.channel.shadow.active.blue{
+  background-color: #f7f8ff;
+}
+.channel.shadow.active.blue a span{
+  color: #2724e4;
+}
+.channel.shadow.active.yellow{
+  background-color: #fffff7;
+}
+.channel.shadow.active.yellow a span{
+  color: #e4a924;
+}
+
+.switch{
+    z-index: 999;
+}
+
+.channel .bottoms{
+    position: absolute;
+    bottom: 0;
+    right: 0;
+    left: 0;
+    text-align: right;
+    padding-bottom: 6px;
+    padding-right: 5px;
+    -webkit-user-select: none;  /* Chrome all / Safari all */
+    -moz-user-select: none;     /* Firefox all */
+    -ms-user-select: none;      /* IE 10+ */
+    user-select: none;          /* Likely future */  
+}
+.channel .bottoms a.link{
+    display: inline-block;
+    font-weight: bold;
+    color: #009;
+    text-decoration: underline;
+    -webkit-user-select: none;  /* Chrome all / Safari all */
+    -moz-user-select: none;     /* Firefox all */
+    -ms-user-select: none;      /* IE 10+ */
+    user-select: none;          /* Likely future */  
+}
+
+.modal_withd{
+  width: 60%;
+}
+
+table.table {
+    margin-top: 5px;
+}

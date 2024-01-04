@@ -1,0 +1,74 @@
+.btn-bottom-toolbar {
+    position: fixed;
+    bottom: 0;
+    padding: 15px;
+    padding-right: 41px;
+    margin: 0 0 0 -25px;
+    -webkit-box-shadow: 0 -4px 1px -4px rgba(0,0,0,.1);
+    box-shadow: 0 -4px 1px -4px rgba(0,0,0,.1);
+    background: #fff;
+    width: calc(98.2% - 211px);
+    z-index: 5;
+    border-top: 1px solid #ededed;
+}
+.diagramy-float-right {
+	float: right;
+}
+.diagramy-white {
+	background:white;
+}
+.diagramy-max-width-100 {
+	max-width:100%;
+}
+.diagramy-pointer {
+	cursor:pointer;
+}
+.diagramy-red-font {
+	color:red;
+	font-size:12px;
+}
+.diagramy-grey {
+	float:right;
+	margin-right:2px;
+	background:grey;
+}
+.diagramy-padding {
+	padding-right:2px;
+}
+#img {
+	max-width:100%;
+	cursor:pointer;
+}
+.lt {
+	width: 40px !important;
+}
+#top-panel{
+	display: none;
+}
+.close2{
+	float:right;
+	color:black;
+	cursor:pointer;
+}
+#map {
+    height: 750px;
+    width: 100%;
+}
+#diagramy_content{
+	display: none;
+}
+#expand-button{
+	float: right;
+}
+#wrapper2 {
+	height:800px;
+	width:1095px;
+	margin:0;
+	padding:0;
+	border:0;
+}
+#wrapper2 td {
+	vertical-align:middle;
+	text-align:center;
+}
+

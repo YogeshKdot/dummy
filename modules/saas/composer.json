@@ -1,0 +1,7 @@
+{
+    "require": {
+        "athlon1600/php-proxy": "^5.2",
+        "rmccue/requests": "2.0.5",
+        "firebase/php-jwt": "6.4.0"
+    }
+}

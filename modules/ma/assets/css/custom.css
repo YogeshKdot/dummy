@@ -1,0 +1,45 @@
+.border {
+    border: 1px solid;
+}
+
+.hr-color{
+    margin-top: 10px;
+    border-bottom: 0.5px solid;
+    color: #d8341b;
+}
+
+.h4-color {
+    color: #d8341b;
+}
+
+.kan-ban-tab{
+    overflow:auto;
+}
+
+.font-size-10{
+    font-size: 10px;
+}
+
+.font-size-14{
+    font-size: 14px;
+}
+
+.vertical-align-middle{
+    vertical-align: middle;
+}
+
+.width-300{
+    width: 300px;
+}
+
+.border-top-2{
+    border-top: 2px !important;
+}
+
+.border-top-solid{
+    border-top-style: solid !important;
+}
+
+.color-white{
+    color: #fff !important;
+}

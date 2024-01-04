@@ -1,0 +1,58 @@
+#print{
+	float: right;
+}
+#expand-button{
+	float: right;
+	margin-right:2px;
+}
+.close2{
+	float:right;
+	color:black;
+	cursor:pointer;
+}
+#top-panel{
+	display: none;
+}
+#diagramy_content{
+	display: none;
+}
+#map {
+	height: 800px;
+	width: 100%;
+}
+.btn-bottom-toolbar {
+	position: fixed;
+	bottom: 0;
+	padding: 15px;
+	padding-right: 41px;
+	margin: 0 0 0 -25px;
+	-webkit-box-shadow: 0 -4px 1px -4px rgba(0,0,0,.1);
+	box-shadow: 0 -4px 1px -4px rgba(0,0,0,.1);
+	background: #fff;
+	width: calc(98.2% - 211px);
+	z-index: 5;
+	border-top: 1px solid #ededed;
+}
+#wrapper2 {
+	height:800px;
+	width:1095px;
+	margin:0;
+	padding:0;
+	border:0;
+}
+table#wrapper2 {
+	
+}
+#wrapper2 td {
+	vertical-align:middle;
+	text-align:center;
+}
+iframe {
+	border:0;
+	top:144px;
+	left:235px;
+	right:0;
+	bottom:0;
+	width:100%;
+	min-height:800px;
+}

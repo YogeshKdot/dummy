@@ -1,0 +1,13 @@
+
+.generate-padding{
+	right: 0px;
+}
+input[type=range]{
+  width: 100%;
+}
+.ptop-10{
+	padding-top: 10px;
+}
+.generate-padding .btn-password{
+	margin-top: 24px;
+}

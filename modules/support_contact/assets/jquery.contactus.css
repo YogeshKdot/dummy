@@ -1,0 +1,984 @@
+.aiocontactus-widget {
+  opacity: 0;
+  transition: 0.2s opacity;
+}
+.aiocontactus-widget * {
+  box-sizing: border-box;
+}
+.aiocontactus-widget.left.aiocontactus-message {
+  right: 20px;
+  left: auto;
+}
+.aiocontactus-widget.left .aiocontactus-message-button {
+  right: auto;
+  left: 0;
+}
+.aiocontactus-widget.left .aiocontactus-prompt {
+  right: 80px;
+  left: auto;
+  transform-origin: 0% 50%;
+}
+.aiocontactus-widget.left .aiocontactus-prompt:before {
+  border-right: 8px solid #FFF;
+  border-top: 8px solid transparent;
+  border-left: 8px solid transparent;
+  border-bottom: 8px solid transparent;
+  left: auto;
+  right: -15px;
+  transform: scale(-1, -1);
+}
+.aiocontactus-widget.left .messengers-block {
+  right: 0;
+  left: auto;
+  -webkit-transform-origin: 10% 105%;
+  -ms-transform-origin: 10% 105%;
+  transform-origin: 10% 105%;
+}
+.aiocontactus-widget.left .callback-countdown-block {
+  left: 0;
+  right: auto;
+}
+.aiocontactus-widget.left .messengers-block::before,
+.aiocontactus-widget.left .callback-countdown-block::before {
+  right: 25px;
+  left: auto;
+}
+.aiocontactus-widget.hg.aiocontactus-message {
+  width: 100px;
+  height: 100px;
+}
+.aiocontactus-widget.hg .messengers-block {
+  bottom: 110px;
+}
+.aiocontactus-widget.hg .callback-countdown-block {
+  bottom: 110px;
+}
+.aiocontactus-widget.hg .aiocontactus-prompt {
+  bottom: 5px;
+}
+.aiocontactus-widget.hg .icons-line {
+  top: 22px;
+  left: 24px;
+}
+.aiocontactus-widget.hg.left .messengers-block:before,
+.aiocontactus-widget.hg.left .callback-countdown-block:before {
+  left: 41px;
+}
+.aiocontactus-widget.hg.left .aiocontactus-prompt {
+  left: 110px;
+  bottom: 26px;
+}
+.aiocontactus-widget.hg.right .messengers-block:before,
+.aiocontactus-widget.hg.right .callback-countdown-block:before {
+  right: 41px;
+}
+.aiocontactus-widget.hg.right .aiocontactus-prompt {
+  right: 110px;
+  bottom: 26px;
+}
+.aiocontactus-widget.hg .aiocontactus-message-button {
+  width: 100px;
+  height: 100px;
+}
+.aiocontactus-widget.hg .aiocontactus-message-button .pulsation {
+  width: 114px;
+  height: 114px;
+  border-radius: 60px;
+}
+.aiocontactus-widget.hg .aiocontactus-message-button .icons {
+  width: 60px;
+  height: 60px;
+  margin-top: -35px;
+  margin-left: -35px;
+}
+.aiocontactus-widget.hg .aiocontactus-message-button .callback-state {
+  width: 60px;
+  height: 60px;
+  margin-top: -35px;
+  margin-left: -35px;
+}
+.aiocontactus-widget.md.aiocontactus-message {
+  width: 60px;
+  height: 60px;
+}
+.aiocontactus-widget.md .messengers-block {
+  bottom: 60px;
+}
+.aiocontactus-widget.md .callback-countdown-block {
+  bottom: 60px;
+}
+.aiocontactus-widget.md .aiocontactus-prompt {
+  bottom: 5px;
+}
+.aiocontactus-widget.md.left .messengers-block:before,
+.aiocontactus-widget.md.left .callback-countdown-block:before {
+  left: 21px;
+}
+.aiocontactus-widget.md.left .aiocontactus-prompt {
+  left: 60px;
+}
+.aiocontactus-widget.md.right .messengers-block:before,
+.aiocontactus-widget.md.right .callback-countdown-block:before {
+  right: 21px;
+}
+.aiocontactus-widget.md.right .aiocontactus-prompt {
+  right: 60px;
+}
+.aiocontactus-widget.md .aiocontactus-message-button {
+  width: 60px;
+  height: 60px;
+}
+.aiocontactus-widget.md .aiocontactus-message-button .pulsation {
+  width: 74px;
+  height: 74px;
+}
+.aiocontactus-widget.md .aiocontactus-message-button .icons {
+  width: 40px;
+  height: 40px;
+  margin-top: -20px;
+  margin-left: -20px;
+}
+.aiocontactus-widget.md .aiocontactus-message-button .callback-state {
+  width: 40px;
+  height: 40px;
+  margin-top: -20px;
+  margin-left: -20px;
+}
+.aiocontactus-widget.sm.aiocontactus-message {
+  width: 50px;
+  height: 50px;
+}
+.aiocontactus-widget.sm .messengers-block {
+  bottom: 60px;
+}
+.aiocontactus-widget.sm .callback-countdown-block {
+  bottom: 60px;
+}
+.aiocontactus-widget.sm .aiocontactus-prompt {
+  bottom: 0px;
+}
+.aiocontactus-widget.sm.left .messengers-block:before,
+.aiocontactus-widget.sm.left .callback-countdown-block:before {
+  left: 16px;
+}
+.aiocontactus-widget.sm.left .aiocontactus-prompt {
+  left: 60px;
+}
+.aiocontactus-widget.sm.right .messengers-block:before,
+.aiocontactus-widget.sm.right .callback-countdown-block:before {
+  right: 16px;
+}
+.aiocontactus-widget.sm.right .aiocontactus-prompt {
+  right: 60px;
+}
+.aiocontactus-widget.sm .aiocontactus-message-button {
+  width: 50px;
+  height: 50px;
+}
+.aiocontactus-widget.sm .aiocontactus-message-button .pulsation {
+  width: 64px;
+  height: 64px;
+}
+.aiocontactus-widget.sm .aiocontactus-message-button .icons {
+  width: 40px;
+  height: 40px;
+  margin-top: -20px;
+  margin-left: -20px;
+}
+.aiocontactus-widget.sm .aiocontactus-message-button .static {
+  margin-top: -16px;
+}
+.aiocontactus-widget.sm .aiocontactus-message-button .callback-state {
+  width: 40px;
+  height: 40px;
+  margin-top: -20px;
+  margin-left: -20px;
+}
+.aiocontactus-widget.active {
+  opacity: 1;
+}
+.aiocontactus-widget.aiocontactus-message {
+  z-index: 10000;
+  right: 20px;
+  bottom: 60px;
+  position: fixed!important;
+  height: 60px;
+  width: 60px;
+}
+.aiocontactus-widget .aiocontactus-message-button {
+  width: 60px;
+  position: absolute;
+  height: 60px;
+  right: 0;
+  background-color: red;
+  border-radius: 50px;
+  -webkit-box-sizing: border-box;
+  box-sizing: border-box;
+  text-align: center;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  cursor: pointer;
+}
+.aiocontactus-widget .aiocontactus-message-button p {
+  color: #fff;
+  font-weight: 700;
+  font-size: 10px;
+  line-height: 11px;
+  margin: 0;
+}
+.aiocontactus-widget .aiocontactus-message-button .pulsation {
+  width: 73px;
+  height: 73px;
+  background-color: red;
+  border-radius: 50px;
+  position: absolute;
+  left: -7px;
+  top: -7px;
+  z-index: -1;
+  -webkit-transform: scale(0);
+  -ms-transform: scale(0);
+  transform: scale(0);
+  -webkit-animation: aiocontactus-pulse 2.5s infinite;
+  animation: aiocontactus-pulse 2.5s infinite;
+}
+.aiocontactus-widget .aiocontactus-message-button .icons {
+  background-color: #fff;
+  width: 44px;
+  height: 44px;
+  border-radius: 50px;
+  position: absolute;
+  overflow: hidden;
+  /*-webkit-animation:aiocontactus-show-icons 6s infinite;
+            animation:aiocontactus-show-icons 6s infinite;*/
+  top: 50%;
+  left: 50%;
+  margin-top: -22px;
+  margin-left: -22px;
+}
+.aiocontactus-widget .aiocontactus-message-button .static {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  margin-top: -19px;
+  margin-left: -26px;
+  width: 52px;
+  height: 52px;
+  text-align: center;
+}
+.aiocontactus-widget .aiocontactus-message-button .static img {
+  display: inline;
+}
+.aiocontactus-widget .aiocontactus-message-button .static svg {
+  width: 24px;
+  height: 24px;
+  color: #FFFFFF;
+}
+.aiocontactus-widget .aiocontactus-message-button.no-text .static {
+  margin-top: -12px;
+}
+.aiocontactus-widget .pulsation:nth-of-type(2n) {
+  -webkit-animation-delay: .5s;
+  animation-delay: 0.5s;
+}
+.aiocontactus-widget .pulsation.stop {
+  -webkit-animation: none;
+  animation: none;
+}
+.aiocontactus-widget .icons-line {
+  top: 10px;
+  left: 12px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  position: absolute;
+  /*-webkit-animation:aiocontactus-icon-change 6s infinite;
+        animation:aiocontactus-icon-change 6s infinite;*/
+  -webkit-transition: cubic-bezier(0.13, 1.49, 0.14, -0.4);
+  -o-transition: cubic-bezier(0.13, 1.49, 0.14, -0.4);
+  transition: cubic-bezier(0.13, 1.49, 0.14, -0.4);
+  -webkit-animation-delay: 0s;
+  animation-delay: 0s;
+  -webkit-transform: translateX(30px);
+  -ms-transform: translateX(30px);
+  transform: translateX(30px);
+  height: 24px;
+  transition: 0.2s all;
+}
+.aiocontactus-widget .icons-line.stop {
+  -webkit-animation-play-state: paused;
+  animation-play-state: paused;
+}
+.aiocontactus-widget .icons-line span {
+  display: inline-block;
+  width: 24px;
+  height: 24px;
+  color: red;
+}
+.aiocontactus-widget .icons-line span svg,
+.aiocontactus-widget .icons-line span i {
+  width: 24px;
+  height: 24px;
+}
+.aiocontactus-widget .icons-line span i {
+  display: block;
+  font-size: 24px;
+  line-height: 24px;
+}
+.aiocontactus-widget .icons-line img,
+.aiocontactus-widget .icons-line span {
+  margin-right: 40px;
+}
+.aiocontactus-widget .static {
+  transition: 0.2s all;
+}
+.aiocontactus-widget .static.hide {
+  transform: scale(0);
+  opacity: 0;
+}
+.aiocontactus-widget .icons {
+  transition: 0.2s all;
+}
+.aiocontactus-widget .icons.hide {
+  transform: scale(0);
+  opacity: 0;
+}
+.aiocontactus-widget .icons.hide .icons-line {
+  transform: scale(0);
+}
+.aiocontactus-widget .icons .icon:first-of-type {
+  margin-left: 0;
+}
+.aiocontactus-widget .aiocontactus-close {
+  color: #FFFFFF;
+}
+.aiocontactus-widget .aiocontactus-close svg {
+  -webkit-transform: rotate(180deg) scale(0);
+  -ms-transform: rotate(180deg) scale(0);
+  transform: rotate(180deg) scale(0);
+  -webkit-transition: ease-in 0.12s all;
+  -o-transition: ease-in 0.12s all;
+  transition: ease-in 0.12s all;
+  display: block;
+}
+.aiocontactus-widget .aiocontactus-close.show-messageners-block svg {
+  -webkit-transform: rotate(0) scale(1);
+  -ms-transform: rotate(0) scale(1);
+  transform: rotate(0) scale(1);
+}
+.aiocontactus-widget .messengers-block,
+.aiocontactus-widget .aiocontactus-prompt {
+  background: #FFFFFF;
+  box-shadow: 0 0px 0 0 rgba(0, 0, 0, 0.37), 0 10px 50px 0 rgba(0, 0, 0, 0.37);
+  width: 235px;
+  background-repeat: no-repeat;
+  background-position: center;
+  position: absolute;
+  bottom: 80px;
+  right: 0px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+  -ms-flex-direction: column;
+  flex-direction: column;
+  -webkit-box-align: start;
+  -ms-flex-align: start;
+  align-items: flex-start;
+  padding: 14px 0;
+  -webkit-box-sizing: border-box;
+  box-sizing: border-box;
+  border-radius: 15px;
+  -webkit-transform-origin: 80% 105%;
+  -ms-transform-origin: 80% 105%;
+  transform-origin: 80% 105%;
+  -webkit-transform: scale(0);
+  -ms-transform: scale(0);
+  transform: scale(0);
+  -webkit-transition: ease-out 0.12s all;
+  -o-transition: ease-out 0.12s all;
+  transition: ease-out 0.12s all;
+  z-index: 10000;
+}
+.aiocontactus-widget .messengers-block:before,
+.aiocontactus-widget .aiocontactus-prompt:before {
+  position: absolute;
+  bottom: -7px;
+  right: 25px;
+  left: auto;
+  display: inline-block !important;
+  border-right: 8px solid transparent;
+  border-top: 8px solid #FFFFFF;
+  border-left: 8px solid transparent;
+  content: '';
+}
+.aiocontactus-widget .messengers-block.show-messageners-block,
+.aiocontactus-widget .aiocontactus-prompt.show-messageners-block {
+  -webkit-transform: scale(1);
+  -ms-transform: scale(1);
+  transform: scale(1);
+}
+.aiocontactus-widget .aiocontactus-prompt {
+  color: #787878;
+  font-size: 14px;
+  line-height: 18px;
+  width: auto;
+  bottom: 5px;
+  right: 80px;
+  white-space: nowrap;
+  padding: 18px 30px 14px;
+}
+.aiocontactus-widget .aiocontactus-prompt:before {
+  border-right: 8px solid transparent;
+  border-top: 8px solid transparent;
+  border-left: 8px solid #FFF;
+  border-bottom: 8px solid transparent;
+  bottom: 16px;
+  right: -15px;
+}
+.aiocontactus-widget .aiocontactus-prompt.active {
+  -webkit-transform: scale(1);
+  -ms-transform: scale(1);
+  transform: scale(1);
+}
+.aiocontactus-widget .aiocontactus-prompt .aiocontactus-prompt-close {
+  position: absolute;
+  left: 10px;
+  top: 20px;
+  cursor: pointer;
+  z-index: 100;
+  height: 14px;
+  width: 14px;
+  padding: 2px;
+}
+.aiocontactus-widget .aiocontactus-prompt .aiocontactus-prompt-close svg {
+  height: 10px;
+  width: 10px;
+  display: block;
+}
+.aiocontactus-widget .aiocontactus-prompt .aiocontactus-prompt-typing {
+  border-radius: 10px;
+  display: inline-block;
+  left: 3px;
+  padding: 0;
+  position: relative;
+  top: 4px;
+  width: 50px;
+}
+.aiocontactus-widget .aiocontactus-prompt .aiocontactus-prompt-typing > div {
+  position: relative;
+  float: left;
+  border-radius: 50%;
+  width: 10px;
+  height: 10px;
+  background: #ccc;
+  margin: 0px 2px;
+  -webkit-animation: aiocontactus-updown 2s infinite;
+  animation: aiocontactus-updown 2s infinite;
+}
+.aiocontactus-widget .aiocontactus-prompt .aiocontactus-prompt-typing > div:nth-child(2) {
+  animation-delay: 0.1s;
+}
+.aiocontactus-widget .aiocontactus-prompt .aiocontactus-prompt-typing > div:nth-child(3) {
+  animation-delay: 0.2s;
+}
+.aiocontactus-widget .messengers-block.sm .messenger {
+  padding-left: 50px;
+  min-height: 44px;
+}
+.aiocontactus-widget .messengers-block.sm .messenger span {
+  height: 32px;
+  width: 32px;
+  margin-top: -16px;
+}
+.aiocontactus-widget .messengers-block.sm .messenger span svg {
+  height: 20px;
+  width: 20px;
+  margin-top: -10px;
+  margin-left: -10px;
+}
+.aiocontactus-widget .messenger {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+  -ms-flex-direction: row;
+  flex-direction: row;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  margin: 0;
+  cursor: pointer;
+  width: 100%;
+  padding: 8px 20px 8px 60px;
+  position: relative;
+  min-height: 54px;
+  text-decoration: none;
+}
+.aiocontactus-widget .messenger:hover {
+  background-color: #f9f9f9;
+}
+.aiocontactus-widget .messenger:before {
+  background-repeat: no-repeat;
+  background-position: center;
+}
+.aiocontactus-widget .messenger.facebook span {
+  background: #0084ff;
+}
+.aiocontactus-widget .messenger.viber span {
+  background: #7c529d;
+}
+.aiocontactus-widget .messenger.telegram span {
+  background: #2ca5e0;
+}
+.aiocontactus-widget .messenger.skype span {
+  background: #31c4ed;
+}
+.aiocontactus-widget .messenger.email span {
+  background: #ff8400;
+}
+.aiocontactus-widget .messenger.contact span {
+  background: #7eb105;
+}
+.aiocontactus-widget .messenger.call-back span {
+  background: #54cd81;
+}
+.aiocontactus-widget .messenger span {
+  position: absolute;
+  left: 10px;
+  top: 50%;
+  margin-top: -20px;
+  display: block;
+  width: 40px;
+  height: 40px;
+  border-radius: 50%;
+  background-color: #0084ff;
+  margin-right: 10px;
+  color: #FFFFFF;
+  text-align: center;
+  vertical-align: middle;
+}
+.aiocontactus-widget .messenger span svg,
+.aiocontactus-widget .messenger span i {
+  width: 24px;
+  height: 24px;
+  vertical-align: middle;
+  text-align: center;
+  display: block;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  margin-top: -12px;
+  margin-left: -12px;
+}
+.aiocontactus-widget .messenger span i {
+  font-size: 24px;
+  line-height: 24px;
+}
+.aiocontactus-widget .messenger p {
+  margin: 0;
+  font-size: 14px;
+  color: rgba(0, 0, 0, 0.87);
+  padding: 0;
+}
+.aiocontactus-widget .callback-countdown-block {
+  background: #FFFFFF;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.6);
+  width: 410px;
+  height: 150px;
+  background-repeat: no-repeat;
+  background-position: center;
+  position: absolute;
+  bottom: 80px;
+  left: auto;
+  right: 0;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+  -ms-flex-direction: column;
+  flex-direction: column;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  -webkit-box-sizing: border-box;
+  box-sizing: border-box;
+  border-radius: 7px;
+  -webkit-transform-origin: 80% 105%;
+  -ms-transform-origin: 80% 105%;
+  transform-origin: 80% 105%;
+  -webkit-transform: scale(1);
+  -ms-transform: scale(1);
+  transform: scale(1);
+  -webkit-transition: ease-out 0.12s all;
+  -o-transition: ease-out 0.12s all;
+  transition: ease-out 0.12s all;
+  z-index: 10000;
+  color: red;
+  padding-top: 5px;
+  padding-left: 8px;
+  padding-right: 19px;
+  display: none;
+}
+.aiocontactus-widget .callback-countdown-block .callback-countdown-block-timer_timer {
+  font-size: 38px;
+}
+.aiocontactus-widget .callback-countdown-block.display-flex {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+.aiocontactus-widget .callback-countdown-block:before {
+  position: absolute;
+  bottom: -7px;
+  right: 25px;
+  left: auto;
+  display: inline-block !important;
+  border-right: 8px solid transparent;
+  border-top: 8px solid #FFFFFF;
+  border-left: 8px solid transparent;
+  content: '';
+}
+.aiocontactus-widget .callback-countdown-block .callback-countdown-block-phone {
+  font-size: 14px;
+  line-height: 16px;
+  padding-left: 10px;
+  padding-right: 10px;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+  -ms-flex-direction: column;
+  flex-direction: column;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  -webkit-box-pack: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+  height: 140px;
+  display: none;
+  position: relative;
+}
+.aiocontactus-widget .callback-countdown-block .callback-countdown-block-phone:before {
+  transition: 0.2s all;
+}
+.aiocontactus-widget .callback-countdown-block .callback-countdown-block-phone.ar-loading:before {
+  background: rgba(255, 255, 255, 0.8);
+  content: ' ';
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  left: 0;
+  top: 0;
+  z-index: 1;
+}
+.aiocontactus-widget .callback-countdown-block .callback-countdown-block-phone.ar-loading:after {
+  content: ' ';
+  position: absolute;
+  width: 30px;
+  height: 30px;
+  z-index: 2;
+  top: 50%;
+  bottom: 50%;
+  margin-top: -15px;
+  margin-bottom: -15px;
+  background: url('../img/ring-alt.gif') no-repeat transparent scroll 0 0;
+}
+.aiocontactus-widget .callback-countdown-block .callback-countdown-block-phone p {
+  text-align: center;
+  margin-bottom: 10px;
+  margin-top: 3px;
+}
+.aiocontactus-widget .callback-countdown-block .callback-countdown-block-phone .callback-countdown-block-form-group {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+}
+.aiocontactus-widget .callback-countdown-block .callback-countdown-block-phone .callback-countdown-block-form-group input[type=tel] {
+  font-size: 14px;
+  line-height: 16px;
+  border-radius: 4px;
+  border: 0;
+  width: 203px;
+  height: 36px;
+  -webkit-box-sizing: border-box;
+  box-sizing: border-box;
+  padding: 10px 11px 9px;
+  border: 1px solid #DDDDDD;
+}
+.aiocontactus-widget .callback-countdown-block .callback-countdown-block-phone .callback-countdown-block-form-group input[type=submit] {
+  border-radius: 4px;
+  border: 0;
+  background-color: red;
+  color: #fff;
+  font-size: 14px;
+  padding: 10px 5px 9px;
+  cursor: pointer;
+  width: 132px;
+  height: 36px;
+  margin-left: 5px;
+}
+.aiocontactus-widget .callback-countdown-block .callback-countdown-block-phone .callback-countdown-block-form-group input[type=submit]:hover {
+  opacity: 0.8;
+}
+.aiocontactus-widget .callback-countdown-block .callback-countdown-block-sorry {
+  height: 140px;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  display: none;
+}
+.aiocontactus-widget .callback-countdown-block .callback-countdown-block-sorry p {
+  font-size: 16px;
+  line-height: 18px;
+  text-align: center;
+  margin-bottom: 5px;
+  margin-top: 7px;
+}
+.aiocontactus-widget .callback-countdown-block .callback-countdown-block-close {
+  position: absolute;
+  top: 9px;
+  right: 9px;
+  cursor: pointer;
+  z-index: 1;
+}
+.aiocontactus-widget .callback-countdown-block .callback-countdown-block-timer {
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+  -ms-flex-direction: column;
+  flex-direction: column;
+  -webkit-box-pack: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  height: 140px;
+  display: none;
+}
+.aiocontactus-widget .callback-countdown-block .callback-countdown-block-timer p {
+  font-size: 14px;
+  line-height: 16px;
+  text-align: center;
+  margin-bottom: 5px;
+  margin-top: 7px;
+}
+.aiocontactus-widget .callback-countdown-block .callback-countdown-block-timer h1 {
+  font-size: 40px;
+  line-height: 46px;
+  text-align: center;
+  font-weight: 300;
+}
+.aiocontactus-widget .callback-countdown-block .callback-countdown-block-phone.display-flex,
+.aiocontactus-widget .callback-countdown-block .callback-countdown-block-timer.display-flex,
+.aiocontactus-widget .callback-countdown-block .callback-countdown-block-sorry.display-flex {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+.aiocontactus-widget .callback-state {
+  background-color: #fff;
+  width: 44px;
+  height: 44px;
+  border-radius: 50px;
+  position: absolute;
+  overflow: hidden;
+  /*-webkit-animation:aiocontactus-show-icons 6s infinite;
+        animation:aiocontactus-show-icons 6s infinite;*/
+  top: 50%;
+  left: 50%;
+  margin-top: -22px;
+  margin-left: -22px;
+  display: none;
+  -webkit-animation: none;
+  animation: none;
+  z-index: 999999;
+  transition: 0.2s all;
+  transform: scale(0);
+  color: red;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+.aiocontactus-widget .callback-state.display-flex {
+  transform: scale(1);
+}
+.aiocontactus-widget .callback-state svg {
+  width: 24px;
+  height: 24px;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  margin-top: -12px;
+  margin-left: -12px;
+}
+.aiocontactus-widget .callback-state .callback-state-img {
+  position: absolute;
+  top: 12px;
+  left: 12px;
+}
+.aiocontactus-widget .animation-pause {
+  -webkit-animation-play-state: paused;
+  animation-play-state: paused;
+}
+@-webkit-keyframes aiocontactus-pulse {
+  0% {
+    -webkit-transform: scale(0);
+    transform: scale(0);
+    opacity: 1;
+  }
+  50% {
+    opacity: 0.5;
+  }
+  100% {
+    -webkit-transform: scale(1);
+    transform: scale(1);
+    opacity: 0;
+  }
+}
+@media (max-width: 468px) {
+  .aiocontactus-widget.opened.left.aiocontactus-message {
+    width: auto;
+    right: 20px;
+    left: 20px;
+  }
+  .aiocontactus-widget.opened.aiocontactus-message {
+    width: auto;
+    right: 20px;
+    left: 20px;
+  }
+  .aiocontactus-widget .callback-countdown-block {
+    width: 100%;
+  }
+}
+@media (max-width: 428px) {
+  .aiocontactus-widget .callback-countdown-block .callback-countdown-block-phone .callback-countdown-block-form-group {
+    display: block;
+  }
+  .aiocontactus-widget .callback-countdown-block .callback-countdown-block-phone .callback-countdown-block-form-group input[type=tel],
+  .aiocontactus-widget .callback-countdown-block .callback-countdown-block-phone .callback-countdown-block-form-group input[type=submit] {
+    display: block;
+    width: 100%;
+    margin: 0 0 5px 0;
+  }
+}
+@keyframes aiocontactus-updown {
+  0%,
+  43%,
+  100% {
+    transform: translate(0, 0);
+  }
+  25%,
+  35% {
+    transform: translate(0, -10px);
+  }
+}
+@-webkit-keyframes aiocontactus-updown {
+  0% {
+    transform: translate(0 0);
+  }
+  25% {
+    transform: translate(-10px 0);
+  }
+  35% {
+    transform: translate(-10px 0);
+  }
+  43% {
+    transform: translate(0 0);
+  }
+  100% {
+    transform: translate(0 0);
+  }
+}
+@keyframes aiocontactus-pulse {
+  0% {
+    -webkit-transform: scale(0);
+    transform: scale(0);
+    opacity: 1;
+  }
+  50% {
+    opacity: 0.5;
+  }
+  100% {
+    -webkit-transform: scale(1);
+    transform: scale(1);
+    opacity: 0;
+  }
+}
+@-webkit-keyframes aiocontactus-show-stat {
+  0%,
+  20% {
+    -webkit-transform: scale(1);
+    transform: scale(1);
+  }
+  21%,
+  84% {
+    -webkit-transform: scale(0);
+    transform: scale(0);
+  }
+  85%,
+  100% {
+    -webkit-transform: scale(1);
+    transform: scale(1);
+  }
+}
+@keyframes aiocontactus-show-stat {
+  0%,
+  20% {
+    -webkit-transform: scale(1);
+    transform: scale(1);
+  }
+  21%,
+  84% {
+    -webkit-transform: scale(0);
+    transform: scale(0);
+  }
+  85%,
+  100% {
+    -webkit-transform: scale(1);
+    transform: scale(1);
+  }
+}
+@-webkit-keyframes aiocontactus-show-icons {
+  0%,
+  20% {
+    -webkit-transform: scale(0);
+    transform: scale(0);
+  }
+  21%,
+  84% {
+    -webkit-transform: scale(1);
+    transform: scale(1);
+  }
+  85%,
+  100% {
+    -webkit-transform: scale(0);
+    transform: scale(0);
+  }
+}
+@keyframes aiocontactus-show-icons {
+  0%,
+  20% {
+    -webkit-transform: scale(0);
+    transform: scale(0);
+  }
+  21%,
+  84% {
+    -webkit-transform: scale(1);
+    transform: scale(1);
+  }
+  85%,
+  100% {
+    -webkit-transform: scale(0);
+    transform: scale(0);
+  }
+}
+/*# sourceMappingURL=jquery.contactus.css.map */

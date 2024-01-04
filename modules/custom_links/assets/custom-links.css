@@ -1,0 +1,49 @@
+#custom-links-list .dd3-content {
+    padding-left: 10px;
+}
+#custom-links-list .dd3-content .dd-icon {
+    display: inline-block;
+    width: 25px;
+    text-align: center;
+}
+.link-headings {
+    text-transform: uppercase;
+    font-weight: 500;
+    color: #888;
+}
+.link-headings.active {
+    color: #337ab7;
+    font-weight: 600;
+}
+#custom_links_form .input-lg {
+    height: 46px;
+    padding: 10px 16px;
+    font-size: 18px;
+    line-height: 1.3333333;
+    border-radius: 6px;
+}
+body.custom_links .horizontal-scrollable-tabs {
+    margin: 15px -20px;
+}
+body.custom_links .nav-tabs {
+    padding: 0 20px;
+}
+.switch-link-type {
+    margin-top: 15px;
+    display: block;
+}
+@media (max-width: 1200px) {
+    .switch-link-type {
+        float: none;
+        display: block;
+        margin-top: 15px;
+    }
+}
+#external_link_prefix .btn {
+    border-top-right-radius: 0;
+    border-bottom-right-radius: 0;
+    border-color: #ccc;
+    font-size: 14px;
+    text-transform: none;
+    height: 36px;
+}

@@ -1,0 +1,19 @@
+.task-single-col-left{
+	min-height: 926px;
+}
+
+#mindmap_content{
+	display: none;
+}
+.lt {
+	width: 40px !important;
+}
+.grid-textarea{
+	display: none;
+}
+#pagination{
+	margin-top: 10px;
+}
+.created-by{
+	font-size: 13px;
+}

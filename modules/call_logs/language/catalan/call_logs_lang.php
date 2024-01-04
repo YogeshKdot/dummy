@@ -1,0 +1,75 @@
+<?php
+
+# Version 2.3.0
+
+$lang['call_logs']                                             = 'Registres de trucades';
+$lang['call_log_info']                                         = 'Informació del registre de trucades';
+$lang['call_log']                                              = 'Historial de trucades';
+$lang['call_logs_tracking']                                    = 'Seguiment de registres de trucades';
+$lang['new_call_log']                                          = 'Nou registre de trucades';
+$lang['call_log_lowercase']                                    = 'historial de trucades';
+$lang['call_log_type']                                         = 'Tipus';
+$lang['new_call_logs_category']                                = 'Nou tipus';
+$lang['edit_call_logs_category']                               = 'Editar el tipus';
+$lang['call_logs_add_edit_name']                               = 'Tipus de nom';
+$lang['call_logs_add_edit_description']                        = 'Descripció';
+$lang['call_log_category']                                     = 'Tipus de registre de trucades';
+$lang['call_log_direction_inbound']                            = 'Entrant';
+$lang['call_log_direction_outbound']                           = 'Sort';
+$lang['call_log_direction']                                    = 'Tipus de trucada';
+$lang['call_purpose']                                          = 'Propòsit de trucada';
+$lang['call_log_add_edit_call_summary']                        = 'Resum de trucada';
+$lang['cl_follow_up_requried']                                 = 'Seguiment necessari';
+$lang['cl_follow_up_yes']                                      = 'Sí';
+$lang['cl_follow_up_no']                                       = 'no';
+$lang['cl_call_start_time']                                    = 'Truca l hora d inici';
+$lang['cl_call_end_time']                                      = 'Truca hora de finalització';
+$lang['cl_call_duration']                                      = 'Durada de la trucada';
+$lang['cl_call_owner']                                         = 'Propietari de la trucada';
+$lang['cl_caller']                                             = 'Trucant';
+$lang['cl_purpose_of_call']                                    = 'Finalitat de la trucada';
+$lang['cl_contact']                                            = 'Contacte';
+$lang['cl_start_time']                                         = 'L hora d inici';
+$lang['cl_end_time']                                           = 'Fi del temps';
+$lang['cl_duration']                                           = 'Durada';
+$lang['cl_call_follow_up']                                     = 'Segueix';
+$lang['create_new_call_log']                                   = 'Crea registre de trucades';
+$lang['cl_add_edit_customer']                                  = 'Clienta';
+$lang['cl_follow_up_schedule']                                 = 'Programació de seguiment';
+$lang['cl_call_log_completed']                                 = 'Completat';
+$lang['cl_call_log_important']                                 = 'important';
+$lang['cl_is_important_1']                                     = '🔥';
+$lang['cl_is_important_0']                                     = 'no';
+$lang['cl_is_completed_1']                                     = '👏';
+$lang['cl_is_completed_0']                                     = 'no';
+$lang['cl_has_followup_1']                                     = '📲';
+$lang['cl_has_followup_0']                                     = 'no';
+$lang['cl_is_important']                                       = 'important';
+$lang['cl_is_completed']                                       = 'Completat';
+$lang['cl_call_with_staff']                                    = 'Truqueu amb el membre del personal';
+$lang['cl_customer_type']                                      = 'Tipus de client';
+$lang['cl_add_edit_lead']                                      = 'Dirigir';
+$lang['cl_related']                                            = 'Relacionat';
+$lang['cl_lead']                                               = 'Dirigir';
+$lang['cl_customer']                                           = 'Clienta';
+$lang['cl_for_proposal']                                       = 'Proposta';
+$lang['cl_for_estimate']                                       = 'Estimació';
+$lang['cl_type']                                               = 'Tipus';
+$lang['cl_general_call']                                       = 'Trucada general';
+$lang['cl_cold-calling']                                       = 'Trucada en fred';
+$lang['cl_report_inbound_calls']                               = 'Entrant';
+$lang['cl_report_outbound_calls']                              = 'Sort';
+$lang['cl_gantt_overview']                                     = 'Visió general dels registres de trucades';
+$lang['cl_switch_to_list_view']                                = 'Canvia a la llista';
+$lang['cl_switch_to_grid_view']                                = 'Canvieu a la graella';
+$lang['cl_search']                                             = 'Cerca registre de trucades';
+$lang['cl_assigned_to_me']                                     = 'Els meus registres de trucades';
+$lang['cl_filter_staff']                                       = 'Personal';
+$lang['cl_created_at']                                         = 'Creat a %s';
+$lang['cl_filter_staff']                                       = 'Personal';
+$lang['cl_back']                                               = 'Torna';
+$lang['cl_not_found']                                          = 'El registre de trucades no es troba.';
+$lang['preview_call_log']                                      = 'Previsualitzeu el registre de trucades';
+
+
+$lang['cl_follow_up_notification']  = 'Teniu una trucada de seguiment amb %s al damunt de %s';

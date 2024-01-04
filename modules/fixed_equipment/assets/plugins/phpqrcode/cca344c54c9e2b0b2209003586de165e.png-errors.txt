@@ -1,0 +1,1879 @@
+2021-04-29 08:33:12: 
+<div style="border:1px solid #990000;padding-left:20px;margin:0 0 10px 0;">
+
+<h4>A PHP Error was encountered</h4>
+
+<p>Severity: Warning</p>
+<p>Message:  file_put_contents(D:\perfex_dev\perfexsoft\modules\fixed_equipment\assets\plugins\phpqrcode\cache\frame_9.dat): failed to open stream: No such file or directory</p>
+<p>Filename: phpqrcode/qrspec.php</p>
+<p>Line Number: 568</p>
+
+
+	<p>Backtrace:</p>
+	
+		
+	
+		
+	
+		
+	
+		
+			<p style="margin-left:10px">
+			File: D:\perfex_dev\perfexsoft\modules\fixed_equipment\assets\plugins\phpqrcode\qrspec.php<br />
+			Line: 568<br />
+			Function: file_put_contents			</p>
+
+		
+	
+		
+			<p style="margin-left:10px">
+			File: D:\perfex_dev\perfexsoft\modules\fixed_equipment\assets\plugins\phpqrcode\qrencode.php<br />
+			Line: 178<br />
+			Function: newFrame			</p>
+
+		
+	
+		
+			<p style="margin-left:10px">
+			File: D:\perfex_dev\perfexsoft\modules\fixed_equipment\assets\plugins\phpqrcode\qrencode.php<br />
+			Line: 240<br />
+			Function: encodeMask			</p>
+
+		
+	
+		
+			<p style="margin-left:10px">
+			File: D:\perfex_dev\perfexsoft\modules\fixed_equipment\assets\plugins\phpqrcode\qrencode.php<br />
+			Line: 279<br />
+			Function: encodeInput			</p>
+
+		
+	
+		
+			<p style="margin-left:10px">
+			File: D:\perfex_dev\perfexsoft\modules\fixed_equipment\assets\plugins\phpqrcode\qrencode.php<br />
+			Line: 467<br />
+			Function: encodeString			</p>
+
+		
+	
+		
+			<p style="margin-left:10px">
+			File: D:\perfex_dev\perfexsoft\modules\fixed_equipment\assets\plugins\phpqrcode\qrencode.php<br />
+			Line: 485<br />
+			Function: encode			</p>
+
+		
+	
+		
+			<p style="margin-left:10px">
+			File: D:\perfex_dev\perfexsoft\modules\fixed_equipment\assets\plugins\phpqrcode\qrencode.php<br />
+			Line: 286<br />
+			Function: encodePNG			</p>
+
+		
+	
+		
+			<p style="margin-left:10px">
+			File: D:\perfex_dev\perfexsoft\modules\fixed_equipment\models\Fixed_equipment_model.php<br />
+			Line: 654<br />
+			Function: png			</p>
+
+		
+	
+		
+			<p style="margin-left:10px">
+			File: D:\perfex_dev\perfexsoft\modules\fixed_equipment\controllers\Fixed_equipment.php<br />
+			Line: 1341<br />
+			Function: add_asset			</p>
+
+		
+	
+		
+	
+		
+			<p style="margin-left:10px">
+			File: D:\perfex_dev\perfexsoft\index.php<br />
+			Line: 319<br />
+			Function: require_once			</p>
+
+		
+	
+
+</div>
+
+<div style="border:1px solid #990000;padding-left:20px;margin:0 0 10px 0;">
+
+<h4>A PHP Error was encountered</h4>
+
+<p>Severity: Warning</p>
+<p>Message:  mkdir(): No such file or directory</p>
+<p>Filename: phpqrcode/qrmask.php</p>
+<p>Line Number: 154</p>
+
+
+	<p>Backtrace:</p>
+	
+		
+	
+		
+	
+		
+	
+		
+			<p style="margin-left:10px">
+			File: D:\perfex_dev\perfexsoft\modules\fixed_equipment\assets\plugins\phpqrcode\qrmask.php<br />
+			Line: 154<br />
+			Function: mkdir			</p>
+
+		
+	
+		
+			<p style="margin-left:10px">
+			File: D:\perfex_dev\perfexsoft\modules\fixed_equipment\assets\plugins\phpqrcode\qrmask.php<br />
+			Line: 311<br />
+			Function: makeMaskNo			</p>
+
+		
+	
+		
+			<p style="margin-left:10px">
+			File: D:\perfex_dev\perfexsoft\modules\fixed_equipment\assets\plugins\phpqrcode\qrencode.php<br />
+			Line: 216<br />
+			Function: mask			</p>
+
+		
+	
+		
+			<p style="margin-left:10px">
+			File: D:\perfex_dev\perfexsoft\modules\fixed_equipment\assets\plugins\phpqrcode\qrencode.php<br />
+			Line: 240<br />
+			Function: encodeMask			</p>
+
+		
+	
+		
+			<p style="margin-left:10px">
+			File: D:\perfex_dev\perfexsoft\modules\fixed_equipment\assets\plugins\phpqrcode\qrencode.php<br />
+			Line: 279<br />
+			Function: encodeInput			</p>
+
+		
+	
+		
+			<p style="margin-left:10px">
+			File: D:\perfex_dev\perfexsoft\modules\fixed_equipment\assets\plugins\phpqrcode\qrencode.php<br />
+			Line: 467<br />
+			Function: encodeString			</p>
+
+		
+	
+		
+			<p style="margin-left:10px">
+			File: D:\perfex_dev\perfexsoft\modules\fixed_equipment\assets\plugins\phpqrcode\qrencode.php<br />
+			Line: 485<br />
+			Function: encode			</p>
+
+		
+	
+		
+			<p style="margin-left:10px">
+			File: D:\perfex_dev\perfexsoft\modules\fixed_equipment\assets\plugins\phpqrcode\qrencode.php<br />
+			Line: 286<br />
+			Function: encodePNG			</p>
+
+		
+	
+		
+			<p style="margin-left:10px">
+			File: D:\perfex_dev\perfexsoft\modules\fixed_equipment\models\Fixed_equipment_model.php<br />
+			Line: 654<br />
+			Function: png			</p>
+
+		
+	
+		
+			<p style="margin-left:10px">
+			File: D:\perfex_dev\perfexsoft\modules\fixed_equipment\controllers\Fixed_equipment.php<br />
+			Line: 1341<br />
+			Function: add_asset			</p>
+
+		
+	
+		
+	
+		
+			<p style="margin-left:10px">
+			File: D:\perfex_dev\perfexsoft\index.php<br />
+			Line: 319<br />
+			Function: require_once			</p>
+
+		
+	
+
+</div>
+
+<div style="border:1px solid #990000;padding-left:20px;margin:0 0 10px 0;">
+
+<h4>A PHP Error was encountered</h4>
+
+<p>Severity: Warning</p>
+<p>Message:  file_put_contents(D:\perfex_dev\perfexsoft\modules\fixed_equipment\assets\plugins\phpqrcode\cache\mask_0\mask_53_0.dat): failed to open stream: No such file or directory</p>
+<p>Filename: phpqrcode/qrmask.php</p>
+<p>Line Number: 155</p>
+
+
+	<p>Backtrace:</p>
+	
+		
+	
+		
+	
+		
+	
+		
+			<p style="margin-left:10px">
+			File: D:\perfex_dev\perfexsoft\modules\fixed_equipment\assets\plugins\phpqrcode\qrmask.php<br />
+			Line: 155<br />
+			Function: file_put_contents			</p>
+
+		
+	
+		
+			<p style="margin-left:10px">
+			File: D:\perfex_dev\perfexsoft\modules\fixed_equipment\assets\plugins\phpqrcode\qrmask.php<br />
+			Line: 311<br />
+			Function: makeMaskNo			</p>
+
+		
+	
+		
+			<p style="margin-left:10px">
+			File: D:\perfex_dev\perfexsoft\modules\fixed_equipment\assets\plugins\phpqrcode\qrencode.php<br />
+			Line: 216<br />
+			Function: mask			</p>
+
+		
+	
+		
+			<p style="margin-left:10px">
+			File: D:\perfex_dev\perfexsoft\modules\fixed_equipment\assets\plugins\phpqrcode\qrencode.php<br />
+			Line: 240<br />
+			Function: encodeMask			</p>
+
+		
+	
+		
+			<p style="margin-left:10px">
+			File: D:\perfex_dev\perfexsoft\modules\fixed_equipment\assets\plugins\phpqrcode\qrencode.php<br />
+			Line: 279<br />
+			Function: encodeInput			</p>
+
+		
+	
+		
+			<p style="margin-left:10px">
+			File: D:\perfex_dev\perfexsoft\modules\fixed_equipment\assets\plugins\phpqrcode\qrencode.php<br />
+			Line: 467<br />
+			Function: encodeString			</p>
+
+		
+	
+		
+			<p style="margin-left:10px">
+			File: D:\perfex_dev\perfexsoft\modules\fixed_equipment\assets\plugins\phpqrcode\qrencode.php<br />
+			Line: 485<br />
+			Function: encode			</p>
+
+		
+	
+		
+			<p style="margin-left:10px">
+			File: D:\perfex_dev\perfexsoft\modules\fixed_equipment\assets\plugins\phpqrcode\qrencode.php<br />
+			Line: 286<br />
+			Function: encodePNG			</p>
+
+		
+	
+		
+			<p style="margin-left:10px">
+			File: D:\perfex_dev\perfexsoft\modules\fixed_equipment\models\Fixed_equipment_model.php<br />
+			Line: 654<br />
+			Function: png			</p>
+
+		
+	
+		
+			<p style="margin-left:10px">
+			File: D:\perfex_dev\perfexsoft\modules\fixed_equipment\controllers\Fixed_equipment.php<br />
+			Line: 1341<br />
+			Function: add_asset			</p>
+
+		
+	
+		
+	
+		
+			<p style="margin-left:10px">
+			File: D:\perfex_dev\perfexsoft\index.php<br />
+			Line: 319<br />
+			Function: require_once			</p>
+
+		
+	
+
+</div>
+
+<div style="border:1px solid #990000;padding-left:20px;margin:0 0 10px 0;">
+
+<h4>A PHP Error was encountered</h4>
+
+<p>Severity: Warning</p>
+<p>Message:  mkdir(): No such file or directory</p>
+<p>Filename: phpqrcode/qrmask.php</p>
+<p>Line Number: 154</p>
+
+
+	<p>Backtrace:</p>
+	
+		
+	
+		
+	
+		
+	
+		
+			<p style="margin-left:10px">
+			File: D:\perfex_dev\perfexsoft\modules\fixed_equipment\assets\plugins\phpqrcode\qrmask.php<br />
+			Line: 154<br />
+			Function: mkdir			</p>
+
+		
+	
+		
+			<p style="margin-left:10px">
+			File: D:\perfex_dev\perfexsoft\modules\fixed_equipment\assets\plugins\phpqrcode\qrmask.php<br />
+			Line: 311<br />
+			Function: makeMaskNo			</p>
+
+		
+	
+		
+			<p style="margin-left:10px">
+			File: D:\perfex_dev\perfexsoft\modules\fixed_equipment\assets\plugins\phpqrcode\qrencode.php<br />
+			Line: 216<br />
+			Function: mask			</p>
+
+		
+	
+		
+			<p style="margin-left:10px">
+			File: D:\perfex_dev\perfexsoft\modules\fixed_equipment\assets\plugins\phpqrcode\qrencode.php<br />
+			Line: 240<br />
+			Function: encodeMask			</p>
+
+		
+	
+		
+			<p style="margin-left:10px">
+			File: D:\perfex_dev\perfexsoft\modules\fixed_equipment\assets\plugins\phpqrcode\qrencode.php<br />
+			Line: 279<br />
+			Function: encodeInput			</p>
+
+		
+	
+		
+			<p style="margin-left:10px">
+			File: D:\perfex_dev\perfexsoft\modules\fixed_equipment\assets\plugins\phpqrcode\qrencode.php<br />
+			Line: 467<br />
+			Function: encodeString			</p>
+
+		
+	
+		
+			<p style="margin-left:10px">
+			File: D:\perfex_dev\perfexsoft\modules\fixed_equipment\assets\plugins\phpqrcode\qrencode.php<br />
+			Line: 485<br />
+			Function: encode			</p>
+
+		
+	
+		
+			<p style="margin-left:10px">
+			File: D:\perfex_dev\perfexsoft\modules\fixed_equipment\assets\plugins\phpqrcode\qrencode.php<br />
+			Line: 286<br />
+			Function: encodePNG			</p>
+
+		
+	
+		
+			<p style="margin-left:10px">
+			File: D:\perfex_dev\perfexsoft\modules\fixed_equipment\models\Fixed_equipment_model.php<br />
+			Line: 654<br />
+			Function: png			</p>
+
+		
+	
+		
+			<p style="margin-left:10px">
+			File: D:\perfex_dev\perfexsoft\modules\fixed_equipment\controllers\Fixed_equipment.php<br />
+			Line: 1341<br />
+			Function: add_asset			</p>
+
+		
+	
+		
+	
+		
+			<p style="margin-left:10px">
+			File: D:\perfex_dev\perfexsoft\index.php<br />
+			Line: 319<br />
+			Function: require_once			</p>
+
+		
+	
+
+</div>
+
+<div style="border:1px solid #990000;padding-left:20px;margin:0 0 10px 0;">
+
+<h4>A PHP Error was encountered</h4>
+
+<p>Severity: Warning</p>
+<p>Message:  file_put_contents(D:\perfex_dev\perfexsoft\modules\fixed_equipment\assets\plugins\phpqrcode\cache\mask_1\mask_53_1.dat): failed to open stream: No such file or directory</p>
+<p>Filename: phpqrcode/qrmask.php</p>
+<p>Line Number: 155</p>
+
+
+	<p>Backtrace:</p>
+	
+		
+	
+		
+	
+		
+	
+		
+			<p style="margin-left:10px">
+			File: D:\perfex_dev\perfexsoft\modules\fixed_equipment\assets\plugins\phpqrcode\qrmask.php<br />
+			Line: 155<br />
+			Function: file_put_contents			</p>
+
+		
+	
+		
+			<p style="margin-left:10px">
+			File: D:\perfex_dev\perfexsoft\modules\fixed_equipment\assets\plugins\phpqrcode\qrmask.php<br />
+			Line: 311<br />
+			Function: makeMaskNo			</p>
+
+		
+	
+		
+			<p style="margin-left:10px">
+			File: D:\perfex_dev\perfexsoft\modules\fixed_equipment\assets\plugins\phpqrcode\qrencode.php<br />
+			Line: 216<br />
+			Function: mask			</p>
+
+		
+	
+		
+			<p style="margin-left:10px">
+			File: D:\perfex_dev\perfexsoft\modules\fixed_equipment\assets\plugins\phpqrcode\qrencode.php<br />
+			Line: 240<br />
+			Function: encodeMask			</p>
+
+		
+	
+		
+			<p style="margin-left:10px">
+			File: D:\perfex_dev\perfexsoft\modules\fixed_equipment\assets\plugins\phpqrcode\qrencode.php<br />
+			Line: 279<br />
+			Function: encodeInput			</p>
+
+		
+	
+		
+			<p style="margin-left:10px">
+			File: D:\perfex_dev\perfexsoft\modules\fixed_equipment\assets\plugins\phpqrcode\qrencode.php<br />
+			Line: 467<br />
+			Function: encodeString			</p>
+
+		
+	
+		
+			<p style="margin-left:10px">
+			File: D:\perfex_dev\perfexsoft\modules\fixed_equipment\assets\plugins\phpqrcode\qrencode.php<br />
+			Line: 485<br />
+			Function: encode			</p>
+
+		
+	
+		
+			<p style="margin-left:10px">
+			File: D:\perfex_dev\perfexsoft\modules\fixed_equipment\assets\plugins\phpqrcode\qrencode.php<br />
+			Line: 286<br />
+			Function: encodePNG			</p>
+
+		
+	
+		
+			<p style="margin-left:10px">
+			File: D:\perfex_dev\perfexsoft\modules\fixed_equipment\models\Fixed_equipment_model.php<br />
+			Line: 654<br />
+			Function: png			</p>
+
+		
+	
+		
+			<p style="margin-left:10px">
+			File: D:\perfex_dev\perfexsoft\modules\fixed_equipment\controllers\Fixed_equipment.php<br />
+			Line: 1341<br />
+			Function: add_asset			</p>
+
+		
+	
+		
+	
+		
+			<p style="margin-left:10px">
+			File: D:\perfex_dev\perfexsoft\index.php<br />
+			Line: 319<br />
+			Function: require_once			</p>
+
+		
+	
+
+</div>
+
+<div style="border:1px solid #990000;padding-left:20px;margin:0 0 10px 0;">
+
+<h4>A PHP Error was encountered</h4>
+
+<p>Severity: Warning</p>
+<p>Message:  mkdir(): No such file or directory</p>
+<p>Filename: phpqrcode/qrmask.php</p>
+<p>Line Number: 154</p>
+
+
+	<p>Backtrace:</p>
+	
+		
+	
+		
+	
+		
+	
+		
+			<p style="margin-left:10px">
+			File: D:\perfex_dev\perfexsoft\modules\fixed_equipment\assets\plugins\phpqrcode\qrmask.php<br />
+			Line: 154<br />
+			Function: mkdir			</p>
+
+		
+	
+		
+			<p style="margin-left:10px">
+			File: D:\perfex_dev\perfexsoft\modules\fixed_equipment\assets\plugins\phpqrcode\qrmask.php<br />
+			Line: 311<br />
+			Function: makeMaskNo			</p>
+
+		
+	
+		
+			<p style="margin-left:10px">
+			File: D:\perfex_dev\perfexsoft\modules\fixed_equipment\assets\plugins\phpqrcode\qrencode.php<br />
+			Line: 216<br />
+			Function: mask			</p>
+
+		
+	
+		
+			<p style="margin-left:10px">
+			File: D:\perfex_dev\perfexsoft\modules\fixed_equipment\assets\plugins\phpqrcode\qrencode.php<br />
+			Line: 240<br />
+			Function: encodeMask			</p>
+
+		
+	
+		
+			<p style="margin-left:10px">
+			File: D:\perfex_dev\perfexsoft\modules\fixed_equipment\assets\plugins\phpqrcode\qrencode.php<br />
+			Line: 279<br />
+			Function: encodeInput			</p>
+
+		
+	
+		
+			<p style="margin-left:10px">
+			File: D:\perfex_dev\perfexsoft\modules\fixed_equipment\assets\plugins\phpqrcode\qrencode.php<br />
+			Line: 467<br />
+			Function: encodeString			</p>
+
+		
+	
+		
+			<p style="margin-left:10px">
+			File: D:\perfex_dev\perfexsoft\modules\fixed_equipment\assets\plugins\phpqrcode\qrencode.php<br />
+			Line: 485<br />
+			Function: encode			</p>
+
+		
+	
+		
+			<p style="margin-left:10px">
+			File: D:\perfex_dev\perfexsoft\modules\fixed_equipment\assets\plugins\phpqrcode\qrencode.php<br />
+			Line: 286<br />
+			Function: encodePNG			</p>
+
+		
+	
+		
+			<p style="margin-left:10px">
+			File: D:\perfex_dev\perfexsoft\modules\fixed_equipment\models\Fixed_equipment_model.php<br />
+			Line: 654<br />
+			Function: png			</p>
+
+		
+	
+		
+			<p style="margin-left:10px">
+			File: D:\perfex_dev\perfexsoft\modules\fixed_equipment\controllers\Fixed_equipment.php<br />
+			Line: 1341<br />
+			Function: add_asset			</p>
+
+		
+	
+		
+	
+		
+			<p style="margin-left:10px">
+			File: D:\perfex_dev\perfexsoft\index.php<br />
+			Line: 319<br />
+			Function: require_once			</p>
+
+		
+	
+
+</div>
+
+<div style="border:1px solid #990000;padding-left:20px;margin:0 0 10px 0;">
+
+<h4>A PHP Error was encountered</h4>
+
+<p>Severity: Warning</p>
+<p>Message:  file_put_contents(D:\perfex_dev\perfexsoft\modules\fixed_equipment\assets\plugins\phpqrcode\cache\mask_2\mask_53_2.dat): failed to open stream: No such file or directory</p>
+<p>Filename: phpqrcode/qrmask.php</p>
+<p>Line Number: 155</p>
+
+
+	<p>Backtrace:</p>
+	
+		
+	
+		
+	
+		
+	
+		
+			<p style="margin-left:10px">
+			File: D:\perfex_dev\perfexsoft\modules\fixed_equipment\assets\plugins\phpqrcode\qrmask.php<br />
+			Line: 155<br />
+			Function: file_put_contents			</p>
+
+		
+	
+		
+			<p style="margin-left:10px">
+			File: D:\perfex_dev\perfexsoft\modules\fixed_equipment\assets\plugins\phpqrcode\qrmask.php<br />
+			Line: 311<br />
+			Function: makeMaskNo			</p>
+
+		
+	
+		
+			<p style="margin-left:10px">
+			File: D:\perfex_dev\perfexsoft\modules\fixed_equipment\assets\plugins\phpqrcode\qrencode.php<br />
+			Line: 216<br />
+			Function: mask			</p>
+
+		
+	
+		
+			<p style="margin-left:10px">
+			File: D:\perfex_dev\perfexsoft\modules\fixed_equipment\assets\plugins\phpqrcode\qrencode.php<br />
+			Line: 240<br />
+			Function: encodeMask			</p>
+
+		
+	
+		
+			<p style="margin-left:10px">
+			File: D:\perfex_dev\perfexsoft\modules\fixed_equipment\assets\plugins\phpqrcode\qrencode.php<br />
+			Line: 279<br />
+			Function: encodeInput			</p>
+
+		
+	
+		
+			<p style="margin-left:10px">
+			File: D:\perfex_dev\perfexsoft\modules\fixed_equipment\assets\plugins\phpqrcode\qrencode.php<br />
+			Line: 467<br />
+			Function: encodeString			</p>
+
+		
+	
+		
+			<p style="margin-left:10px">
+			File: D:\perfex_dev\perfexsoft\modules\fixed_equipment\assets\plugins\phpqrcode\qrencode.php<br />
+			Line: 485<br />
+			Function: encode			</p>
+
+		
+	
+		
+			<p style="margin-left:10px">
+			File: D:\perfex_dev\perfexsoft\modules\fixed_equipment\assets\plugins\phpqrcode\qrencode.php<br />
+			Line: 286<br />
+			Function: encodePNG			</p>
+
+		
+	
+		
+			<p style="margin-left:10px">
+			File: D:\perfex_dev\perfexsoft\modules\fixed_equipment\models\Fixed_equipment_model.php<br />
+			Line: 654<br />
+			Function: png			</p>
+
+		
+	
+		
+			<p style="margin-left:10px">
+			File: D:\perfex_dev\perfexsoft\modules\fixed_equipment\controllers\Fixed_equipment.php<br />
+			Line: 1341<br />
+			Function: add_asset			</p>
+
+		
+	
+		
+	
+		
+			<p style="margin-left:10px">
+			File: D:\perfex_dev\perfexsoft\index.php<br />
+			Line: 319<br />
+			Function: require_once			</p>
+
+		
+	
+
+</div>
+
+<div style="border:1px solid #990000;padding-left:20px;margin:0 0 10px 0;">
+
+<h4>A PHP Error was encountered</h4>
+
+<p>Severity: Warning</p>
+<p>Message:  mkdir(): No such file or directory</p>
+<p>Filename: phpqrcode/qrmask.php</p>
+<p>Line Number: 154</p>
+
+
+	<p>Backtrace:</p>
+	
+		
+	
+		
+	
+		
+	
+		
+			<p style="margin-left:10px">
+			File: D:\perfex_dev\perfexsoft\modules\fixed_equipment\assets\plugins\phpqrcode\qrmask.php<br />
+			Line: 154<br />
+			Function: mkdir			</p>
+
+		
+	
+		
+			<p style="margin-left:10px">
+			File: D:\perfex_dev\perfexsoft\modules\fixed_equipment\assets\plugins\phpqrcode\qrmask.php<br />
+			Line: 311<br />
+			Function: makeMaskNo			</p>
+
+		
+	
+		
+			<p style="margin-left:10px">
+			File: D:\perfex_dev\perfexsoft\modules\fixed_equipment\assets\plugins\phpqrcode\qrencode.php<br />
+			Line: 216<br />
+			Function: mask			</p>
+
+		
+	
+		
+			<p style="margin-left:10px">
+			File: D:\perfex_dev\perfexsoft\modules\fixed_equipment\assets\plugins\phpqrcode\qrencode.php<br />
+			Line: 240<br />
+			Function: encodeMask			</p>
+
+		
+	
+		
+			<p style="margin-left:10px">
+			File: D:\perfex_dev\perfexsoft\modules\fixed_equipment\assets\plugins\phpqrcode\qrencode.php<br />
+			Line: 279<br />
+			Function: encodeInput			</p>
+
+		
+	
+		
+			<p style="margin-left:10px">
+			File: D:\perfex_dev\perfexsoft\modules\fixed_equipment\assets\plugins\phpqrcode\qrencode.php<br />
+			Line: 467<br />
+			Function: encodeString			</p>
+
+		
+	
+		
+			<p style="margin-left:10px">
+			File: D:\perfex_dev\perfexsoft\modules\fixed_equipment\assets\plugins\phpqrcode\qrencode.php<br />
+			Line: 485<br />
+			Function: encode			</p>
+
+		
+	
+		
+			<p style="margin-left:10px">
+			File: D:\perfex_dev\perfexsoft\modules\fixed_equipment\assets\plugins\phpqrcode\qrencode.php<br />
+			Line: 286<br />
+			Function: encodePNG			</p>
+
+		
+	
+		
+			<p style="margin-left:10px">
+			File: D:\perfex_dev\perfexsoft\modules\fixed_equipment\models\Fixed_equipment_model.php<br />
+			Line: 654<br />
+			Function: png			</p>
+
+		
+	
+		
+			<p style="margin-left:10px">
+			File: D:\perfex_dev\perfexsoft\modules\fixed_equipment\controllers\Fixed_equipment.php<br />
+			Line: 1341<br />
+			Function: add_asset			</p>
+
+		
+	
+		
+	
+		
+			<p style="margin-left:10px">
+			File: D:\perfex_dev\perfexsoft\index.php<br />
+			Line: 319<br />
+			Function: require_once			</p>
+
+		
+	
+
+</div>
+
+<div style="border:1px solid #990000;padding-left:20px;margin:0 0 10px 0;">
+
+<h4>A PHP Error was encountered</h4>
+
+<p>Severity: Warning</p>
+<p>Message:  file_put_contents(D:\perfex_dev\perfexsoft\modules\fixed_equipment\assets\plugins\phpqrcode\cache\mask_3\mask_53_3.dat): failed to open stream: No such file or directory</p>
+<p>Filename: phpqrcode/qrmask.php</p>
+<p>Line Number: 155</p>
+
+
+	<p>Backtrace:</p>
+	
+		
+	
+		
+	
+		
+	
+		
+			<p style="margin-left:10px">
+			File: D:\perfex_dev\perfexsoft\modules\fixed_equipment\assets\plugins\phpqrcode\qrmask.php<br />
+			Line: 155<br />
+			Function: file_put_contents			</p>
+
+		
+	
+		
+			<p style="margin-left:10px">
+			File: D:\perfex_dev\perfexsoft\modules\fixed_equipment\assets\plugins\phpqrcode\qrmask.php<br />
+			Line: 311<br />
+			Function: makeMaskNo			</p>
+
+		
+	
+		
+			<p style="margin-left:10px">
+			File: D:\perfex_dev\perfexsoft\modules\fixed_equipment\assets\plugins\phpqrcode\qrencode.php<br />
+			Line: 216<br />
+			Function: mask			</p>
+
+		
+	
+		
+			<p style="margin-left:10px">
+			File: D:\perfex_dev\perfexsoft\modules\fixed_equipment\assets\plugins\phpqrcode\qrencode.php<br />
+			Line: 240<br />
+			Function: encodeMask			</p>
+
+		
+	
+		
+			<p style="margin-left:10px">
+			File: D:\perfex_dev\perfexsoft\modules\fixed_equipment\assets\plugins\phpqrcode\qrencode.php<br />
+			Line: 279<br />
+			Function: encodeInput			</p>
+
+		
+	
+		
+			<p style="margin-left:10px">
+			File: D:\perfex_dev\perfexsoft\modules\fixed_equipment\assets\plugins\phpqrcode\qrencode.php<br />
+			Line: 467<br />
+			Function: encodeString			</p>
+
+		
+	
+		
+			<p style="margin-left:10px">
+			File: D:\perfex_dev\perfexsoft\modules\fixed_equipment\assets\plugins\phpqrcode\qrencode.php<br />
+			Line: 485<br />
+			Function: encode			</p>
+
+		
+	
+		
+			<p style="margin-left:10px">
+			File: D:\perfex_dev\perfexsoft\modules\fixed_equipment\assets\plugins\phpqrcode\qrencode.php<br />
+			Line: 286<br />
+			Function: encodePNG			</p>
+
+		
+	
+		
+			<p style="margin-left:10px">
+			File: D:\perfex_dev\perfexsoft\modules\fixed_equipment\models\Fixed_equipment_model.php<br />
+			Line: 654<br />
+			Function: png			</p>
+
+		
+	
+		
+			<p style="margin-left:10px">
+			File: D:\perfex_dev\perfexsoft\modules\fixed_equipment\controllers\Fixed_equipment.php<br />
+			Line: 1341<br />
+			Function: add_asset			</p>
+
+		
+	
+		
+	
+		
+			<p style="margin-left:10px">
+			File: D:\perfex_dev\perfexsoft\index.php<br />
+			Line: 319<br />
+			Function: require_once			</p>
+
+		
+	
+
+</div>
+
+<div style="border:1px solid #990000;padding-left:20px;margin:0 0 10px 0;">
+
+<h4>A PHP Error was encountered</h4>
+
+<p>Severity: Warning</p>
+<p>Message:  mkdir(): No such file or directory</p>
+<p>Filename: phpqrcode/qrmask.php</p>
+<p>Line Number: 154</p>
+
+
+	<p>Backtrace:</p>
+	
+		
+	
+		
+	
+		
+	
+		
+			<p style="margin-left:10px">
+			File: D:\perfex_dev\perfexsoft\modules\fixed_equipment\assets\plugins\phpqrcode\qrmask.php<br />
+			Line: 154<br />
+			Function: mkdir			</p>
+
+		
+	
+		
+			<p style="margin-left:10px">
+			File: D:\perfex_dev\perfexsoft\modules\fixed_equipment\assets\plugins\phpqrcode\qrmask.php<br />
+			Line: 311<br />
+			Function: makeMaskNo			</p>
+
+		
+	
+		
+			<p style="margin-left:10px">
+			File: D:\perfex_dev\perfexsoft\modules\fixed_equipment\assets\plugins\phpqrcode\qrencode.php<br />
+			Line: 216<br />
+			Function: mask			</p>
+
+		
+	
+		
+			<p style="margin-left:10px">
+			File: D:\perfex_dev\perfexsoft\modules\fixed_equipment\assets\plugins\phpqrcode\qrencode.php<br />
+			Line: 240<br />
+			Function: encodeMask			</p>
+
+		
+	
+		
+			<p style="margin-left:10px">
+			File: D:\perfex_dev\perfexsoft\modules\fixed_equipment\assets\plugins\phpqrcode\qrencode.php<br />
+			Line: 279<br />
+			Function: encodeInput			</p>
+
+		
+	
+		
+			<p style="margin-left:10px">
+			File: D:\perfex_dev\perfexsoft\modules\fixed_equipment\assets\plugins\phpqrcode\qrencode.php<br />
+			Line: 467<br />
+			Function: encodeString			</p>
+
+		
+	
+		
+			<p style="margin-left:10px">
+			File: D:\perfex_dev\perfexsoft\modules\fixed_equipment\assets\plugins\phpqrcode\qrencode.php<br />
+			Line: 485<br />
+			Function: encode			</p>
+
+		
+	
+		
+			<p style="margin-left:10px">
+			File: D:\perfex_dev\perfexsoft\modules\fixed_equipment\assets\plugins\phpqrcode\qrencode.php<br />
+			Line: 286<br />
+			Function: encodePNG			</p>
+
+		
+	
+		
+			<p style="margin-left:10px">
+			File: D:\perfex_dev\perfexsoft\modules\fixed_equipment\models\Fixed_equipment_model.php<br />
+			Line: 654<br />
+			Function: png			</p>
+
+		
+	
+		
+			<p style="margin-left:10px">
+			File: D:\perfex_dev\perfexsoft\modules\fixed_equipment\controllers\Fixed_equipment.php<br />
+			Line: 1341<br />
+			Function: add_asset			</p>
+
+		
+	
+		
+	
+		
+			<p style="margin-left:10px">
+			File: D:\perfex_dev\perfexsoft\index.php<br />
+			Line: 319<br />
+			Function: require_once			</p>
+
+		
+	
+
+</div>
+
+<div style="border:1px solid #990000;padding-left:20px;margin:0 0 10px 0;">
+
+<h4>A PHP Error was encountered</h4>
+
+<p>Severity: Warning</p>
+<p>Message:  file_put_contents(D:\perfex_dev\perfexsoft\modules\fixed_equipment\assets\plugins\phpqrcode\cache\mask_4\mask_53_4.dat): failed to open stream: No such file or directory</p>
+<p>Filename: phpqrcode/qrmask.php</p>
+<p>Line Number: 155</p>
+
+
+	<p>Backtrace:</p>
+	
+		
+	
+		
+	
+		
+	
+		
+			<p style="margin-left:10px">
+			File: D:\perfex_dev\perfexsoft\modules\fixed_equipment\assets\plugins\phpqrcode\qrmask.php<br />
+			Line: 155<br />
+			Function: file_put_contents			</p>
+
+		
+	
+		
+			<p style="margin-left:10px">
+			File: D:\perfex_dev\perfexsoft\modules\fixed_equipment\assets\plugins\phpqrcode\qrmask.php<br />
+			Line: 311<br />
+			Function: makeMaskNo			</p>
+
+		
+	
+		
+			<p style="margin-left:10px">
+			File: D:\perfex_dev\perfexsoft\modules\fixed_equipment\assets\plugins\phpqrcode\qrencode.php<br />
+			Line: 216<br />
+			Function: mask			</p>
+
+		
+	
+		
+			<p style="margin-left:10px">
+			File: D:\perfex_dev\perfexsoft\modules\fixed_equipment\assets\plugins\phpqrcode\qrencode.php<br />
+			Line: 240<br />
+			Function: encodeMask			</p>
+
+		
+	
+		
+			<p style="margin-left:10px">
+			File: D:\perfex_dev\perfexsoft\modules\fixed_equipment\assets\plugins\phpqrcode\qrencode.php<br />
+			Line: 279<br />
+			Function: encodeInput			</p>
+
+		
+	
+		
+			<p style="margin-left:10px">
+			File: D:\perfex_dev\perfexsoft\modules\fixed_equipment\assets\plugins\phpqrcode\qrencode.php<br />
+			Line: 467<br />
+			Function: encodeString			</p>
+
+		
+	
+		
+			<p style="margin-left:10px">
+			File: D:\perfex_dev\perfexsoft\modules\fixed_equipment\assets\plugins\phpqrcode\qrencode.php<br />
+			Line: 485<br />
+			Function: encode			</p>
+
+		
+	
+		
+			<p style="margin-left:10px">
+			File: D:\perfex_dev\perfexsoft\modules\fixed_equipment\assets\plugins\phpqrcode\qrencode.php<br />
+			Line: 286<br />
+			Function: encodePNG			</p>
+
+		
+	
+		
+			<p style="margin-left:10px">
+			File: D:\perfex_dev\perfexsoft\modules\fixed_equipment\models\Fixed_equipment_model.php<br />
+			Line: 654<br />
+			Function: png			</p>
+
+		
+	
+		
+			<p style="margin-left:10px">
+			File: D:\perfex_dev\perfexsoft\modules\fixed_equipment\controllers\Fixed_equipment.php<br />
+			Line: 1341<br />
+			Function: add_asset			</p>
+
+		
+	
+		
+	
+		
+			<p style="margin-left:10px">
+			File: D:\perfex_dev\perfexsoft\index.php<br />
+			Line: 319<br />
+			Function: require_once			</p>
+
+		
+	
+
+</div>
+
+<div style="border:1px solid #990000;padding-left:20px;margin:0 0 10px 0;">
+
+<h4>A PHP Error was encountered</h4>
+
+<p>Severity: Warning</p>
+<p>Message:  mkdir(): No such file or directory</p>
+<p>Filename: phpqrcode/qrmask.php</p>
+<p>Line Number: 154</p>
+
+
+	<p>Backtrace:</p>
+	
+		
+	
+		
+	
+		
+	
+		
+			<p style="margin-left:10px">
+			File: D:\perfex_dev\perfexsoft\modules\fixed_equipment\assets\plugins\phpqrcode\qrmask.php<br />
+			Line: 154<br />
+			Function: mkdir			</p>
+
+		
+	
+		
+			<p style="margin-left:10px">
+			File: D:\perfex_dev\perfexsoft\modules\fixed_equipment\assets\plugins\phpqrcode\qrmask.php<br />
+			Line: 311<br />
+			Function: makeMaskNo			</p>
+
+		
+	
+		
+			<p style="margin-left:10px">
+			File: D:\perfex_dev\perfexsoft\modules\fixed_equipment\assets\plugins\phpqrcode\qrencode.php<br />
+			Line: 216<br />
+			Function: mask			</p>
+
+		
+	
+		
+			<p style="margin-left:10px">
+			File: D:\perfex_dev\perfexsoft\modules\fixed_equipment\assets\plugins\phpqrcode\qrencode.php<br />
+			Line: 240<br />
+			Function: encodeMask			</p>
+
+		
+	
+		
+			<p style="margin-left:10px">
+			File: D:\perfex_dev\perfexsoft\modules\fixed_equipment\assets\plugins\phpqrcode\qrencode.php<br />
+			Line: 279<br />
+			Function: encodeInput			</p>
+
+		
+	
+		
+			<p style="margin-left:10px">
+			File: D:\perfex_dev\perfexsoft\modules\fixed_equipment\assets\plugins\phpqrcode\qrencode.php<br />
+			Line: 467<br />
+			Function: encodeString			</p>
+
+		
+	
+		
+			<p style="margin-left:10px">
+			File: D:\perfex_dev\perfexsoft\modules\fixed_equipment\assets\plugins\phpqrcode\qrencode.php<br />
+			Line: 485<br />
+			Function: encode			</p>
+
+		
+	
+		
+			<p style="margin-left:10px">
+			File: D:\perfex_dev\perfexsoft\modules\fixed_equipment\assets\plugins\phpqrcode\qrencode.php<br />
+			Line: 286<br />
+			Function: encodePNG			</p>
+
+		
+	
+		
+			<p style="margin-left:10px">
+			File: D:\perfex_dev\perfexsoft\modules\fixed_equipment\models\Fixed_equipment_model.php<br />
+			Line: 654<br />
+			Function: png			</p>
+
+		
+	
+		
+			<p style="margin-left:10px">
+			File: D:\perfex_dev\perfexsoft\modules\fixed_equipment\controllers\Fixed_equipment.php<br />
+			Line: 1341<br />
+			Function: add_asset			</p>
+
+		
+	
+		
+	
+		
+			<p style="margin-left:10px">
+			File: D:\perfex_dev\perfexsoft\index.php<br />
+			Line: 319<br />
+			Function: require_once			</p>
+
+		
+	
+
+</div>
+
+<div style="border:1px solid #990000;padding-left:20px;margin:0 0 10px 0;">
+
+<h4>A PHP Error was encountered</h4>
+
+<p>Severity: Warning</p>
+<p>Message:  file_put_contents(D:\perfex_dev\perfexsoft\modules\fixed_equipment\assets\plugins\phpqrcode\cache\mask_5\mask_53_5.dat): failed to open stream: No such file or directory</p>
+<p>Filename: phpqrcode/qrmask.php</p>
+<p>Line Number: 155</p>
+
+
+	<p>Backtrace:</p>
+	
+		
+	
+		
+	
+		
+	
+		
+			<p style="margin-left:10px">
+			File: D:\perfex_dev\perfexsoft\modules\fixed_equipment\assets\plugins\phpqrcode\qrmask.php<br />
+			Line: 155<br />
+			Function: file_put_contents			</p>
+
+		
+	
+		
+			<p style="margin-left:10px">
+			File: D:\perfex_dev\perfexsoft\modules\fixed_equipment\assets\plugins\phpqrcode\qrmask.php<br />
+			Line: 311<br />
+			Function: makeMaskNo			</p>
+
+		
+	
+		
+			<p style="margin-left:10px">
+			File: D:\perfex_dev\perfexsoft\modules\fixed_equipment\assets\plugins\phpqrcode\qrencode.php<br />
+			Line: 216<br />
+			Function: mask			</p>
+
+		
+	
+		
+			<p style="margin-left:10px">
+			File: D:\perfex_dev\perfexsoft\modules\fixed_equipment\assets\plugins\phpqrcode\qrencode.php<br />
+			Line: 240<br />
+			Function: encodeMask			</p>
+
+		
+	
+		
+			<p style="margin-left:10px">
+			File: D:\perfex_dev\perfexsoft\modules\fixed_equipment\assets\plugins\phpqrcode\qrencode.php<br />
+			Line: 279<br />
+			Function: encodeInput			</p>
+
+		
+	
+		
+			<p style="margin-left:10px">
+			File: D:\perfex_dev\perfexsoft\modules\fixed_equipment\assets\plugins\phpqrcode\qrencode.php<br />
+			Line: 467<br />
+			Function: encodeString			</p>
+
+		
+	
+		
+			<p style="margin-left:10px">
+			File: D:\perfex_dev\perfexsoft\modules\fixed_equipment\assets\plugins\phpqrcode\qrencode.php<br />
+			Line: 485<br />
+			Function: encode			</p>
+
+		
+	
+		
+			<p style="margin-left:10px">
+			File: D:\perfex_dev\perfexsoft\modules\fixed_equipment\assets\plugins\phpqrcode\qrencode.php<br />
+			Line: 286<br />
+			Function: encodePNG			</p>
+
+		
+	
+		
+			<p style="margin-left:10px">
+			File: D:\perfex_dev\perfexsoft\modules\fixed_equipment\models\Fixed_equipment_model.php<br />
+			Line: 654<br />
+			Function: png			</p>
+
+		
+	
+		
+			<p style="margin-left:10px">
+			File: D:\perfex_dev\perfexsoft\modules\fixed_equipment\controllers\Fixed_equipment.php<br />
+			Line: 1341<br />
+			Function: add_asset			</p>
+
+		
+	
+		
+	
+		
+			<p style="margin-left:10px">
+			File: D:\perfex_dev\perfexsoft\index.php<br />
+			Line: 319<br />
+			Function: require_once			</p>
+
+		
+	
+
+</div>
+
+<div style="border:1px solid #990000;padding-left:20px;margin:0 0 10px 0;">
+
+<h4>A PHP Error was encountered</h4>
+
+<p>Severity: Warning</p>
+<p>Message:  mkdir(): No such file or directory</p>
+<p>Filename: phpqrcode/qrmask.php</p>
+<p>Line Number: 154</p>
+
+
+	<p>Backtrace:</p>
+	
+		
+	
+		
+	
+		
+	
+		
+			<p style="margin-left:10px">
+			File: D:\perfex_dev\perfexsoft\modules\fixed_equipment\assets\plugins\phpqrcode\qrmask.php<br />
+			Line: 154<br />
+			Function: mkdir			</p>
+
+		
+	
+		
+			<p style="margin-left:10px">
+			File: D:\perfex_dev\perfexsoft\modules\fixed_equipment\assets\plugins\phpqrcode\qrmask.php<br />
+			Line: 311<br />
+			Function: makeMaskNo			</p>
+
+		
+	
+		
+			<p style="margin-left:10px">
+			File: D:\perfex_dev\perfexsoft\modules\fixed_equipment\assets\plugins\phpqrcode\qrencode.php<br />
+			Line: 216<br />
+			Function: mask			</p>
+
+		
+	
+		
+			<p style="margin-left:10px">
+			File: D:\perfex_dev\perfexsoft\modules\fixed_equipment\assets\plugins\phpqrcode\qrencode.php<br />
+			Line: 240<br />
+			Function: encodeMask			</p>
+
+		
+	
+		
+			<p style="margin-left:10px">
+			File: D:\perfex_dev\perfexsoft\modules\fixed_equipment\assets\plugins\phpqrcode\qrencode.php<br />
+			Line: 279<br />
+			Function: encodeInput			</p>
+
+		
+	
+		
+			<p style="margin-left:10px">
+			File: D:\perfex_dev\perfexsoft\modules\fixed_equipment\assets\plugins\phpqrcode\qrencode.php<br />
+			Line: 467<br />
+			Function: encodeString			</p>
+
+		
+	
+		
+			<p style="margin-left:10px">
+			File: D:\perfex_dev\perfexsoft\modules\fixed_equipment\assets\plugins\phpqrcode\qrencode.php<br />
+			Line: 485<br />
+			Function: encode			</p>
+
+		
+	
+		
+			<p style="margin-left:10px">
+			File: D:\perfex_dev\perfexsoft\modules\fixed_equipment\assets\plugins\phpqrcode\qrencode.php<br />
+			Line: 286<br />
+			Function: encodePNG			</p>
+
+		
+	
+		
+			<p style="margin-left:10px">
+			File: D:\perfex_dev\perfexsoft\modules\fixed_equipment\models\Fixed_equipment_model.php<br />
+			Line: 654<br />
+			Function: png			</p>
+
+		
+	
+		
+			<p style="margin-left:10px">
+			File: D:\perfex_dev\perfexsoft\modules\fixed_equipment\controllers\Fixed_equipment.php<br />
+			Line: 1341<br />
+			Function: add_asset			</p>
+
+		
+	
+		
+	
+		
+			<p style="margin-left:10px">
+			File: D:\perfex_dev\perfexsoft\index.php<br />
+			Line: 319<br />
+			Function: require_once			</p>
+
+		
+	
+
+</div>
+
+<div style="border:1px solid #990000;padding-left:20px;margin:0 0 10px 0;">
+
+<h4>A PHP Error was encountered</h4>
+
+<p>Severity: Warning</p>
+<p>Message:  file_put_contents(D:\perfex_dev\perfexsoft\modules\fixed_equipment\assets\plugins\phpqrcode\cache\mask_6\mask_53_6.dat): failed to open stream: No such file or directory</p>
+<p>Filename: phpqrcode/qrmask.php</p>
+<p>Line Number: 155</p>
+
+
+	<p>Backtrace:</p>
+	
+		
+	
+		
+	
+		
+	
+		
+			<p style="margin-left:10px">
+			File: D:\perfex_dev\perfexsoft\modules\fixed_equipment\assets\plugins\phpqrcode\qrmask.php<br />
+			Line: 155<br />
+			Function: file_put_contents			</p>
+
+		
+	
+		
+			<p style="margin-left:10px">
+			File: D:\perfex_dev\perfexsoft\modules\fixed_equipment\assets\plugins\phpqrcode\qrmask.php<br />
+			Line: 311<br />
+			Function: makeMaskNo			</p>
+
+		
+	
+		
+			<p style="margin-left:10px">
+			File: D:\perfex_dev\perfexsoft\modules\fixed_equipment\assets\plugins\phpqrcode\qrencode.php<br />
+			Line: 216<br />
+			Function: mask			</p>
+
+		
+	
+		
+			<p style="margin-left:10px">
+			File: D:\perfex_dev\perfexsoft\modules\fixed_equipment\assets\plugins\phpqrcode\qrencode.php<br />
+			Line: 240<br />
+			Function: encodeMask			</p>
+
+		
+	
+		
+			<p style="margin-left:10px">
+			File: D:\perfex_dev\perfexsoft\modules\fixed_equipment\assets\plugins\phpqrcode\qrencode.php<br />
+			Line: 279<br />
+			Function: encodeInput			</p>
+
+		
+	
+		
+			<p style="margin-left:10px">
+			File: D:\perfex_dev\perfexsoft\modules\fixed_equipment\assets\plugins\phpqrcode\qrencode.php<br />
+			Line: 467<br />
+			Function: encodeString			</p>
+
+		
+	
+		
+			<p style="margin-left:10px">
+			File: D:\perfex_dev\perfexsoft\modules\fixed_equipment\assets\plugins\phpqrcode\qrencode.php<br />
+			Line: 485<br />
+			Function: encode			</p>
+
+		
+	
+		
+			<p style="margin-left:10px">
+			File: D:\perfex_dev\perfexsoft\modules\fixed_equipment\assets\plugins\phpqrcode\qrencode.php<br />
+			Line: 286<br />
+			Function: encodePNG			</p>
+
+		
+	
+		
+			<p style="margin-left:10px">
+			File: D:\perfex_dev\perfexsoft\modules\fixed_equipment\models\Fixed_equipment_model.php<br />
+			Line: 654<br />
+			Function: png			</p>
+
+		
+	
+		
+			<p style="margin-left:10px">
+			File: D:\perfex_dev\perfexsoft\modules\fixed_equipment\controllers\Fixed_equipment.php<br />
+			Line: 1341<br />
+			Function: add_asset			</p>
+
+		
+	
+		
+	
+		
+			<p style="margin-left:10px">
+			File: D:\perfex_dev\perfexsoft\index.php<br />
+			Line: 319<br />
+			Function: require_once			</p>
+
+		
+	
+
+</div>
+
+<div style="border:1px solid #990000;padding-left:20px;margin:0 0 10px 0;">
+
+<h4>A PHP Error was encountered</h4>
+
+<p>Severity: Warning</p>
+<p>Message:  mkdir(): No such file or directory</p>
+<p>Filename: phpqrcode/qrmask.php</p>
+<p>Line Number: 154</p>
+
+
+	<p>Backtrace:</p>
+	
+		
+	
+		
+	
+		
+	
+		
+			<p style="margin-left:10px">
+			File: D:\perfex_dev\perfexsoft\modules\fixed_equipment\assets\plugins\phpqrcode\qrmask.php<br />
+			Line: 154<br />
+			Function: mkdir			</p>
+
+		
+	
+		
+			<p style="margin-left:10px">
+			File: D:\perfex_dev\perfexsoft\modules\fixed_equipment\assets\plugins\phpqrcode\qrmask.php<br />
+			Line: 311<br />
+			Function: makeMaskNo			</p>
+
+		
+	
+		
+			<p style="margin-left:10px">
+			File: D:\perfex_dev\perfexsoft\modules\fixed_equipment\assets\plugins\phpqrcode\qrencode.php<br />
+			Line: 216<br />
+			Function: mask			</p>
+
+		
+	
+		
+			<p style="margin-left:10px">
+			File: D:\perfex_dev\perfexsoft\modules\fixed_equipment\assets\plugins\phpqrcode\qrencode.php<br />
+			Line: 240<br />
+			Function: encodeMask			</p>
+
+		
+	
+		
+			<p style="margin-left:10px">
+			File: D:\perfex_dev\perfexsoft\modules\fixed_equipment\assets\plugins\phpqrcode\qrencode.php<br />
+			Line: 279<br />
+			Function: encodeInput			</p>
+
+		
+	
+		
+			<p style="margin-left:10px">
+			File: D:\perfex_dev\perfexsoft\modules\fixed_equipment\assets\plugins\phpqrcode\qrencode.php<br />
+			Line: 467<br />
+			Function: encodeString			</p>
+
+		
+	
+		
+			<p style="margin-left:10px">
+			File: D:\perfex_dev\perfexsoft\modules\fixed_equipment\assets\plugins\phpqrcode\qrencode.php<br />
+			Line: 485<br />
+			Function: encode			</p>
+
+		
+	
+		
+			<p style="margin-left:10px">
+			File: D:\perfex_dev\perfexsoft\modules\fixed_equipment\assets\plugins\phpqrcode\qrencode.php<br />
+			Line: 286<br />
+			Function: encodePNG			</p>
+
+		
+	
+		
+			<p style="margin-left:10px">
+			File: D:\perfex_dev\perfexsoft\modules\fixed_equipment\models\Fixed_equipment_model.php<br />
+			Line: 654<br />
+			Function: png			</p>
+
+		
+	
+		
+			<p style="margin-left:10px">
+			File: D:\perfex_dev\perfexsoft\modules\fixed_equipment\controllers\Fixed_equipment.php<br />
+			Line: 1341<br />
+			Function: add_asset			</p>
+
+		
+	
+		
+	
+		
+			<p style="margin-left:10px">
+			File: D:\perfex_dev\perfexsoft\index.php<br />
+			Line: 319<br />
+			Function: require_once			</p>
+
+		
+	
+
+</div>
+
+<div style="border:1px solid #990000;padding-left:20px;margin:0 0 10px 0;">
+
+<h4>A PHP Error was encountered</h4>
+
+<p>Severity: Warning</p>
+<p>Message:  file_put_contents(D:\perfex_dev\perfexsoft\modules\fixed_equipment\assets\plugins\phpqrcode\cache\mask_7\mask_53_7.dat): failed to open stream: No such file or directory</p>
+<p>Filename: phpqrcode/qrmask.php</p>
+<p>Line Number: 155</p>
+
+
+	<p>Backtrace:</p>
+	
+		
+	
+		
+	
+		
+	
+		
+			<p style="margin-left:10px">
+			File: D:\perfex_dev\perfexsoft\modules\fixed_equipment\assets\plugins\phpqrcode\qrmask.php<br />
+			Line: 155<br />
+			Function: file_put_contents			</p>
+
+		
+	
+		
+			<p style="margin-left:10px">
+			File: D:\perfex_dev\perfexsoft\modules\fixed_equipment\assets\plugins\phpqrcode\qrmask.php<br />
+			Line: 311<br />
+			Function: makeMaskNo			</p>
+
+		
+	
+		
+			<p style="margin-left:10px">
+			File: D:\perfex_dev\perfexsoft\modules\fixed_equipment\assets\plugins\phpqrcode\qrencode.php<br />
+			Line: 216<br />
+			Function: mask			</p>
+
+		
+	
+		
+			<p style="margin-left:10px">
+			File: D:\perfex_dev\perfexsoft\modules\fixed_equipment\assets\plugins\phpqrcode\qrencode.php<br />
+			Line: 240<br />
+			Function: encodeMask			</p>
+
+		
+	
+		
+			<p style="margin-left:10px">
+			File: D:\perfex_dev\perfexsoft\modules\fixed_equipment\assets\plugins\phpqrcode\qrencode.php<br />
+			Line: 279<br />
+			Function: encodeInput			</p>
+
+		
+	
+		
+			<p style="margin-left:10px">
+			File: D:\perfex_dev\perfexsoft\modules\fixed_equipment\assets\plugins\phpqrcode\qrencode.php<br />
+			Line: 467<br />
+			Function: encodeString			</p>
+
+		
+	
+		
+			<p style="margin-left:10px">
+			File: D:\perfex_dev\perfexsoft\modules\fixed_equipment\assets\plugins\phpqrcode\qrencode.php<br />
+			Line: 485<br />
+			Function: encode			</p>
+
+		
+	
+		
+			<p style="margin-left:10px">
+			File: D:\perfex_dev\perfexsoft\modules\fixed_equipment\assets\plugins\phpqrcode\qrencode.php<br />
+			Line: 286<br />
+			Function: encodePNG			</p>
+
+		
+	
+		
+			<p style="margin-left:10px">
+			File: D:\perfex_dev\perfexsoft\modules\fixed_equipment\models\Fixed_equipment_model.php<br />
+			Line: 654<br />
+			Function: png			</p>
+
+		
+	
+		
+			<p style="margin-left:10px">
+			File: D:\perfex_dev\perfexsoft\modules\fixed_equipment\controllers\Fixed_equipment.php<br />
+			Line: 1341<br />
+			Function: add_asset			</p>
+
+		
+	
+		
+	
+		
+			<p style="margin-left:10px">
+			File: D:\perfex_dev\perfexsoft\index.php<br />
+			Line: 319<br />
+			Function: require_once			</p>
+
+		
+	
+
+</div>

@@ -1,0 +1,75 @@
+<?php
+
+# Version 2.3.0
+
+$lang['call_logs']                                             = 'Call Logs';
+$lang['call_log_info']                                         = 'Call Log Info';
+$lang['call_log']                                              = 'Call Log';
+$lang['call_logs_tracking']                                    = 'Call Logs Tracking';
+$lang['new_call_log']                                          = 'New Call Log';
+$lang['call_log_lowercase']                                    = 'call log';
+$lang['call_log_type']                                         = 'Type';
+$lang['new_call_logs_category']                                = 'New Type';
+$lang['edit_call_logs_category']                               = 'Edit Type';
+$lang['call_logs_add_edit_name']                               = 'Type Name';
+$lang['call_logs_add_edit_description']                        = 'Description';
+$lang['call_log_category']                                     = 'Call Log Type';
+$lang['call_log_direction_inbound']                            = 'Inbound';
+$lang['call_log_direction_outbound']                           = 'Outbound';
+$lang['call_log_direction']                                    = 'Call Type';
+$lang['call_purpose']                                          = 'Call Purpose';
+$lang['call_log_add_edit_call_summary']                        = 'Call Summary';
+$lang['cl_follow_up_requried']                                 = 'Follow-up Required';
+$lang['cl_follow_up_yes']                                      = 'Yes';
+$lang['cl_follow_up_no']                                       = 'No';
+$lang['cl_call_start_time']                                    = 'Call Start Time';
+$lang['cl_call_end_time']                                      = 'Call End Time';
+$lang['cl_call_duration']                                      = 'Call Duration';
+$lang['cl_call_owner']                                         = 'Call Owner';
+$lang['cl_caller']                                             = 'Caller';
+$lang['cl_purpose_of_call']                                    = 'Purpose of call';
+$lang['cl_contact']                                            = 'Contact';
+$lang['cl_start_time']                                         = 'Start time';
+$lang['cl_end_time']                                           = 'End time';
+$lang['cl_duration']                                           = 'Duration';
+$lang['cl_call_follow_up']                                     = 'Follow-up';
+$lang['create_new_call_log']                                   = 'Create Call Log';
+$lang['cl_add_edit_customer']                                  = 'Customer';
+$lang['cl_follow_up_schedule']                                 = 'Follow-up Schedule';
+$lang['cl_call_log_completed']                                 = 'Completed';
+$lang['cl_call_log_important']                                 = 'Important';
+$lang['cl_is_important_1']                                     = '🔥';
+$lang['cl_is_important_0']                                     = 'NO';
+$lang['cl_is_completed_1']                                     = '👏';
+$lang['cl_is_completed_0']                                     = 'NO';
+$lang['cl_has_followup_1']                                     = '📲';
+$lang['cl_has_followup_0']                                     = 'NO';
+$lang['cl_is_important']                                       = 'Important';
+$lang['cl_is_completed']                                       = 'Completed';
+$lang['cl_call_with_staff']                                    = 'Call with Staff Member';
+$lang['cl_customer_type']                                      = 'Customer Type';
+$lang['cl_add_edit_lead']                                      = 'Lead';
+$lang['cl_related']                                            = 'Related';
+$lang['cl_lead']                                               = 'Lead';
+$lang['cl_customer']                                           = 'Customer';
+$lang['cl_for_proposal']                                       = 'Proposal';
+$lang['cl_for_estimate']                                       = 'Estimate';
+$lang['cl_type']                                               = 'Type';
+$lang['cl_general_call']                                       = 'General call';
+$lang['cl_cold-calling']                                       = 'Cold calling';
+$lang['cl_report_inbound_calls']                               = 'Inbound';
+$lang['cl_report_outbound_calls']                              = 'Outbound';
+$lang['cl_gantt_overview']                                     = 'Call Logs Overview';
+$lang['cl_switch_to_list_view']                                = 'Switch to List';
+$lang['cl_switch_to_grid_view']                                = 'Switch to Grid';
+$lang['cl_search']                                             = 'Search Call Log';
+$lang['cl_assigned_to_me']                                     = 'My Call Logs';
+$lang['cl_filter_staff']                                       = 'Staff';
+$lang['cl_created_at']                                         = 'Created at %s';
+$lang['cl_filter_staff']                                       = 'Staff';
+$lang['cl_back']                                               = 'Go Back';
+$lang['cl_not_found']                                          = 'Call log not found.';
+$lang['preview_call_log']                                      = 'Preview Call log';
+
+
+$lang['cl_follow_up_notification']  = 'You have a follow-up call with %s on %s';

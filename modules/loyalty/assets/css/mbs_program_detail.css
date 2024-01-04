@@ -1,0 +1,89 @@
+
+.hiraheadsummary {
+    background: #fff;
+    margin: 18px 0 25px;
+    width: 100%;
+    float: left;
+    border: 1px solid #d9d9d9;
+    box-shadow: 0 2px 2px rgba(0,0,0,.16);
+    padding: 25px 35px;
+    border-radius: 5px;
+}
+p.assessid {
+    color: #a7a7a7;
+    font-size: 13px;
+    text-transform: uppercase;
+}
+
+.hiraclassification {
+    float: left;
+    width: 100%;
+    border-top: 1px solid #d9dada;
+    margin-top: 15px;
+    padding-top: 18px;
+}
+
+.classify_hira.first {
+    padding-left: 0;
+    border-left: 0;
+}
+.classify_hira {
+    float: left;
+    border-left: 1px solid #d9dada;
+    padding-left: 25px;
+}
+.classify_value {
+    font-weight: 500;
+    color: #222d3d;
+    font-size: 15px;
+}
+.assesstatus {
+    text-align: right;
+    float: right;
+    font-size: 15px;
+    width: 40%;
+}
+.classify_hira .ratingdisplay {
+    padding-left: 20px;
+}
+.classify_hira .ratingdisplay, .classify_value {
+    font-weight: 500;
+    color: #222d3d;
+    font-size: 15px;
+}
+.ratingdisplay {
+    position: relative;
+    padding-left: 30px;
+}
+.classify_hira .ratingdisplay:before {
+    top: 3px;
+    left: 0;
+}
+.ratingdisplay:before {
+    content: "";
+    position: absolute;
+    width: 7px;
+    height: 13px;
+    background: none;
+    left: 13px;
+    top: 9px;
+    border-radius: 4px;
+}
+
+.list-file{
+    overflow-y: scroll;
+    max-height: 300px;
+}
+
+.list-log{
+    overflow-y: scroll;
+    max-height: 300px;
+}
+
+.pleft0{
+  padding-left: 0px;
+}
+
+.pright0{
+  padding-right: 0px;
+}

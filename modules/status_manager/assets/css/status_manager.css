@@ -1,0 +1,16 @@
+.pb-50 {
+    padding-bottom: 50px;
+}
+
+.cursor-pointer {
+    cursor: pointer
+}
+
+.flex-wrap {
+    display: flex;
+    flex-wrap: wrap
+}
+
+.m2 {
+    margin: 2px
+}

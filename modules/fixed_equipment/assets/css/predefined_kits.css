@@ -1,0 +1,12 @@
+#check_out .asset_list .alert{
+	margin-bottom: 0;
+	border-radius: 0;
+}
+#check_out .asset_list .alert:first-child{
+	margin-top: 5px;
+}
+#check_out .asset_list .alert .staff-profile-image-small{
+	border-radius: unset;
+	margin-top: -6px;
+	margin-left: -11px;
+}

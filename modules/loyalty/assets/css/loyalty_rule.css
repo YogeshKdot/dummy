@@ -1,0 +1,36 @@
+.padtop25{
+	padding-top: 25px;
+}
+.padleft0{
+	padding-left: 0px;
+}
+.padright0{
+	padding-right: 0px;
+}
+.padbot5{
+	padding-bottom: 5px;
+}
+.addbtn_style{
+	line-height: 104px;white-space: nowrap;
+}
+
+  .pad_div_0{
+    padding-left: 0px
+  }
+  .p_style{
+    margin-top: 0px; 
+    color: #d81b60;
+  }
+  .hr_style{
+    margin-top: 10px; 
+    border: 0.5px solid; 
+    color: #d81b60
+  }
+  .td_style{
+    margin-bottom:25px;
+  }
+
+  .mtop0{
+    margin-top: 0px;
+  }
+  

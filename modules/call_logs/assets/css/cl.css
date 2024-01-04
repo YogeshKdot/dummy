@@ -1,0 +1,46 @@
+@import url("https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400;600;700&display=swap");
+
+.clear1 { clear:both;}
+.clear5px { clear:both; height:5px; }
+.clear10px { clear:both; padding:5px; }
+.clear20px { clear:both; padding:10px; }
+.clear30px { clear:both; padding:15px; }
+.clear50px { clear:both; padding:25px; }
+.clear100px { clear:both; padding:50px; }
+.btn-primary {background: #5584FF; border:#5584FF }
+.btn-primary:hover {background: #0E1A35; border:#0E1A35 }
+
+* { -webkit-box-sizing: border-box; -moz-box-sizing: border-box; box-sizing: border-box; }
+
+body { font:16px/1.6 'Open Sans', sans-serif;}
+.breadcrumb { background: no-repeat; margin:0; }
+.logs { background: #0E1A35; overflow: hidden; padding: 3px 10px 0; }
+.logs ul { list-style: none; margin: 0; padding: 0; overflow: hidden; }
+.logs ul li { float: left; margin-right: 1px; }
+.logs ul li a { background: white; border-radius: 4px 4px 0 0; border-bottom: 2px solid #5584FF; display: block; padding: 5px 10px; }
+.logs ul li a:hover, .logs ul li.activ > a { background: #5584FF; color: #fff; text-decoration: none; }
+
+.btns { background: #fff; padding: 15px; }
+.btns ul { list-style: none; margin:0; padding:0;   }
+.btns ul li { display: inline-block; margin-right: 10px; }
+.btns i.fa {  padding-right: 15px; }
+
+.wq-tabs .nav-tabs { background: #F2F4F5; padding: 5px 10px 0; }
+.wq-tabs .nav-tabs>li>a { color: #111; padding: 5px 10px; }
+.wq-tabs .nav-tabs>li.active>a, .nav-tabs>li.active>a:focus, .nav-tabs>li.active>a:hover { border-bottom: 2px solid #5584FF; }
+.wq-tabs .tab-pane { padding:10px;  }
+
+thead, .wq-table thead {background: #0E1A35; color: #fff; font-size: 14px;}
+.wq-table thead th {  font-weight: normal; }
+.wq-table tbody small { font-size: 12px; line-height: 10px; }
+
+.widget-wq { border:3px solid lightgrey; margin-bottom: 10px; padding-bottom: 10px; }
+.widget-wq  h3, .widget-wq  h4 { border-bottom: 1px solid #5584FF; padding:5px  }
+.widget-wq  h3 { margin-top:3px; }
+.widget-wq  .text-success, .widget-wq  .text-primary { font-size: 36px; line-height: 1; }
+.text-success { color: seagreen; }
+
+.cardbox { border: 1px solid lightgrey; border-radius: 4px; margin-bottom: 30px; }
+.cardbox img { border-radius: 60px; width: 100px; height: 100px; }
+
+label { font-weight: normal }
